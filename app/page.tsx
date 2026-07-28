@@ -1,10 +1,14 @@
 import { nations, site } from "../content/site";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main id="top">
       <header className="site-header">
         <nav aria-label="Realm index">
+          <Link className="player-tools-link" href="/characters">
+            Character Ledger
+          </Link>
           {nations.map((nation) => (
             <a key={nation.id} href={`#${nation.id}`}>
               {nation.name}
