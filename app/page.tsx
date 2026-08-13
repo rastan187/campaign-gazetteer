@@ -9,9 +9,6 @@ export default function Home() {
           <Link className="player-tools-link" href="/house-rules">
             House Rules
           </Link>
-          <Link className="player-tools-link" href="/characters">
-            Character Ledger
-          </Link>
           {nations.map((nation) => (
             <a key={nation.id} href={`#${nation.id}`}>
               {nation.name}
