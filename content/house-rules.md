@@ -124,6 +124,8 @@ Whether a loaded sack requires one or both hands is handled through table ruling
 | Severe mountains / badlands | 4 |
 | Marsh / swamp | 5 |
 
+**Mounts:** Add **6 MP/day** in terrain where riding is practical. Harsh terrain may negate the bonus, require mounts to be led, or be impassable to them.
+
 Roads cost **1 MP**; trails reduce cost by 1, minimum 1. Searching a hex costs **3 MP**.
 
 **Encounters:** Check **1-in-6 per 3 MP spent traveling or searching**.
