@@ -124,15 +124,15 @@ Whether a loaded sack requires one or both hands is handled through table ruling
 | Severe mountains / badlands | 4 |
 | Marsh / swamp | 5 |
 
-**Mounts:** Add **6 MP/day** in terrain where riding is practical. Harsh terrain may negate the bonus, require mounts to be led, or be impassable to them.
+Roads cost **1 MP** regardless of terrain in most cases; trails reduce cost by 1, minimum 1. Searching a hex costs **3 MP**.
 
-Roads cost **1 MP**; trails reduce cost by 1, minimum 1. Searching a hex costs **3 MP**.
+**Mounts:** Add **6 MP/day** in terrain where riding is practical. Harsh terrain may negate the bonus, require mounts to be led, or be impassable to them.
 
 **Encounters:** Check **1-in-6 per 3 MP spent traveling or searching**.
 
 **Navigation:** When conditions make reliable wayfinding uncertain, check once per day to become lost: **1-in-6 easy, 2-in-6 difficult, 3-in-6 severe terrain**. Barbarians, huntsmen, rangers, scouts, and relevant backgrounds roll d8 instead. If lost, veer one hex-face left or right.
 
-**Locating Sites:** Chance to find specific features within a hex is **3-in-6 open, 2-in-6 hills/broken, 1-in-6 woods/swamp/severe**. Good clues improve the chance.
+**Locating Sites:** Chance to find specific features within a hex by searching is **3-in-6 open, 2-in-6 hills/broken, 1-in-6 woods/swamp/severe**. Good clues improve the chance.
 
 Weather, river crossings, forced travel, and unusual conditions modify MP at the referee's discretion.
 
