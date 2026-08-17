@@ -46,7 +46,7 @@ Carousing takes a **whole night**. The character gains **XP equal to the amount 
 | Town | d10 × 100 gp |
 | City | d10 × 200 gp |
 
-The next morning, make a **CON check**. On a failure, roll d20 on the Carousing Mishaps table.
+The next morning, make a **Test of Constitution**. On a failure, roll d20 on the Carousing Mishaps table.
 
 | d20 | Mishap |
 | ---: | --- |
