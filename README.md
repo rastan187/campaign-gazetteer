@@ -2,6 +2,24 @@
 
 A lightweight, single-page visual reference for five campaign nations.
 
+The site also includes a responsive, player-safe hex map at `/map`. The map
+supports panning, zooming, touch input, and per-hex field notes. Terrain remains
+visible in concealed hexes while feature icons and discovery text stay out of
+the published dataset.
+
+## Updating the map source
+
+The committed player map is generated from the Hex Kit `.map` file and its tile
+library:
+
+```bash
+npm run map:build
+```
+
+The generator writes `content/region1-player-map.json` and copies only the tile
+images used by the player view into `public/map-tiles`. Concealed feature images
+and notes are omitted rather than merely hidden with CSS.
+
 ## Editing the writing
 
 All public-facing copy lives in one file:

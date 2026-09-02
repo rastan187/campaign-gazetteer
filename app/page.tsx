@@ -6,6 +6,9 @@ export default function Home() {
     <main id="top">
       <header className="site-header">
         <nav aria-label="Realm index">
+          <Link className="player-tools-link" href="/map">
+            Region I Map
+          </Link>
           <Link className="player-tools-link" href="/house-rules">
             House Rules
           </Link>
