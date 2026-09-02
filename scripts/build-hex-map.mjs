@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { copyFile, mkdir, readFile, writeFile } from "node:fs/promises";
+import { copyFile, mkdir, readFile, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const projectRoot = process.cwd();
@@ -9,6 +9,7 @@ const hpsRoot = process.argv[3] ?? `${hexKitRoot}/HPS Cartography Kit`;
 const bundledTilesRoot = `${hexKitRoot}/Hex Kit-win32-x64/resources/app.asar.unpacked/tiles`;
 const outputDataPath = path.join(projectRoot, "content", "region1-player-map.json");
 const outputTileRoot = path.join(projectRoot, "public", "map-tiles");
+const nextOutputTileRoot = path.join(projectRoot, "public", ".map-tiles-next");
 
 const rawMap = JSON.parse(await readFile(mapPath, "utf8"));
 const fowLayer = rawMap.layers.find((layer) => layer.label === "FOW");
@@ -18,7 +19,8 @@ if (!fowLayer) {
 }
 
 await mkdir(path.dirname(outputDataPath), { recursive: true });
-await mkdir(outputTileRoot, { recursive: true });
+await rm(nextOutputTileRoot, { recursive: true, force: true });
+await mkdir(nextOutputTileRoot, { recursive: true });
 
 const foggedIndexes = new Set(
   fowLayer.tiles.flatMap((tile, index) =>
@@ -64,7 +66,7 @@ async function copyTile(source) {
   const digest = createHash("sha1").update(source).digest("hex").slice(0, 10);
   const outputName = `${readableName}-${digest}${extension}`;
 
-  await copyFile(inputPath, path.join(outputTileRoot, outputName));
+  await copyFile(inputPath, path.join(nextOutputTileRoot, outputName));
   copiedAssets.set(source, outputName);
   return outputName;
 }
@@ -120,6 +122,8 @@ const playerMap = {
   cells,
 };
 
+await rm(outputTileRoot, { recursive: true, force: true });
+await rename(nextOutputTileRoot, outputTileRoot);
 await writeFile(outputDataPath, `${JSON.stringify(playerMap, null, 2)}\n`);
 
 console.log(

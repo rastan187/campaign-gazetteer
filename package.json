@@ -10,6 +10,8 @@
     "build": "vinext build",
     "build:pages": "next build",
     "map:build": "node scripts/build-hex-map.mjs",
+    "map:check": "node scripts/check-player-map.mjs",
+    "map:publish": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/publish-map.ps1",
     "start": "vinext start",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",

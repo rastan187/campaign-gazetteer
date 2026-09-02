@@ -9,16 +9,33 @@ the published dataset.
 
 ## Updating the map source
 
-The committed player map is generated from the Hex Kit `.map` file and its tile
-library:
+Keep the complete GM map at
+`E:\books\RPG\Hex Kit\region1_82126.map`; never add that file to this public
+repository. To publish an update:
+
+1. Open the map in Hex Kit and make the change.
+2. To reveal a feature, remove Hex Kit's Fog of War tile from that hex. Make
+   sure its label contains the name players should see.
+3. Save the map, then double-click `Publish Map.cmd` in this folder.
+4. Leave the window open until it says the map was published. GitHub Pages
+   normally refreshes within about two minutes.
+
+The shortcut updates from GitHub first, rebuilds the player-safe map, performs
+a privacy check, and publishes only the generated player files. Other local
+work is not included in its commit. If an edit affects only concealed GM
+material, it correctly reports that there are no player-visible changes.
+
+The same workflow can be run from a terminal:
 
 ```bash
-npm run map:build
+npm run map:publish
 ```
 
 The generator writes `content/region1-player-map.json` and copies only the tile
 images used by the player view into `public/map-tiles`. Concealed feature images
-and notes are omitted rather than merely hidden with CSS.
+and notes are omitted rather than merely hidden with CSS. The tile folder is
+replaced on each update so removed or newly concealed icons cannot linger as
+stale public assets.
 
 ## Editing the writing
 

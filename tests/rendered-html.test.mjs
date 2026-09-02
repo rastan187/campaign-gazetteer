@@ -66,12 +66,11 @@ test("publishes a complete map without leaking concealed discoveries", async () 
   assert.equal(playerMap.width, 25);
   assert.equal(playerMap.height, 24);
   assert.equal(playerMap.cells.length, 600);
-  assert.equal(playerMap.knownLocationCount, 22);
-  assert.doesNotMatch(serializedMap, /"fogged"|"foggedHexCount"/);
-  assert.doesNotMatch(
-    serializedMap,
-    /Lair dungeon|Namarathi renegade incursion|Vampire camp|Leucrotta lair/,
+  assert.equal(
+    playerMap.knownLocationCount,
+    playerMap.cells.filter((cell) => cell.title).length,
   );
+  assert.doesNotMatch(serializedMap, /"fogged"|"foggedHexCount"/);
 
   for (const cell of playerMap.cells) {
     for (const tile of cell.tiles) {
