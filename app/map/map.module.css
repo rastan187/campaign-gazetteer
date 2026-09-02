@@ -133,22 +133,22 @@
   background: rgb(242 202 100 / 12%);
 }
 
-.fogMarker {
+.poiLabel {
   position: absolute;
   z-index: 12;
-  top: 50%;
+  top: 25px;
   left: 50%;
-  display: grid;
-  width: 42px;
-  height: 42px;
-  place-items: center;
-  transform: translate(-50%, -50%);
-  border: 1px solid rgb(234 218 172 / 65%);
-  border-radius: 50%;
-  background: rgb(22 24 19 / 72%);
-  box-shadow: 0 0 24px 10px rgb(21 23 19 / 62%);
-  color: #e8d9aa;
-  font: 400 24px/1 Georgia, "Times New Roman", serif;
+  max-width: 148px;
+  padding: 3px 5px;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  background: rgb(20 22 16 / 78%);
+  box-shadow: 0 1px 5px rgb(0 0 0 / 38%);
+  color: #fff8df;
+  font: 700 10px/1.15 Arial, Helvetica, sans-serif;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-shadow: 0 1px 2px #000;
   pointer-events: none;
 }
 
@@ -244,11 +244,9 @@
   font-style: normal;
 }
 
-.legendFog {
-  border: 1px solid #8f835f;
-  background: #292a21;
-  color: #e8d9aa;
-  font-family: Georgia, "Times New Roman", serif;
+.legendLocation {
+  border: 1px solid #c0a970;
+  background: #28271f;
 }
 
 .legendKnown {

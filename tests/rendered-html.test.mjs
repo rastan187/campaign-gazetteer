@@ -57,28 +57,23 @@ test("keeps campaign copy separate from the page template", async () => {
 });
 
 test("publishes a complete map without leaking concealed discoveries", async () => {
-  const playerMap = JSON.parse(
-    await readFile(
-      new URL("../content/region1-player-map.json", import.meta.url),
-      "utf8",
-    ),
+  const serializedMap = await readFile(
+    new URL("../content/region1-player-map.json", import.meta.url),
+    "utf8",
   );
+  const playerMap = JSON.parse(serializedMap);
 
   assert.equal(playerMap.width, 25);
   assert.equal(playerMap.height, 24);
   assert.equal(playerMap.cells.length, 600);
-  assert.equal(playerMap.cells.filter((cell) => cell.fogged).length, 39);
+  assert.equal(playerMap.knownLocationCount, 22);
+  assert.doesNotMatch(serializedMap, /"fogged"|"foggedHexCount"/);
+  assert.doesNotMatch(
+    serializedMap,
+    /Lair dungeon|Namarathi renegade incursion|Vampire camp|Leucrotta lair/,
+  );
 
   for (const cell of playerMap.cells) {
-    if (cell.fogged) {
-      assert.equal(cell.title, "");
-      assert.equal(cell.description, "");
-      assert.equal(
-        cell.tiles.some((tile) => tile.layer === "Features"),
-        false,
-      );
-    }
-
     for (const tile of cell.tiles) {
       await access(new URL(`../public/map-tiles/${tile.asset}`, import.meta.url));
     }

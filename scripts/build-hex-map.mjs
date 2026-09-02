@@ -103,7 +103,6 @@ for (let index = 0; index < rawMap.width * rawMap.height; index += 1) {
     coordinate,
     column,
     row,
-    fogged,
     title: fogged ? "" : cleanTitle(info?.label?.text),
     description: fogged ? "" : (info?.data ?? ""),
     tiles,
@@ -117,12 +116,12 @@ const playerMap = {
   flatTop: rawMap.flatTop,
   topStaggered: rawMap.topStaggered,
   generatedFrom: path.basename(mapPath),
-  foggedHexCount: foggedIndexes.size,
+  knownLocationCount: cells.filter((cell) => cell.title).length,
   cells,
 };
 
 await writeFile(outputDataPath, `${JSON.stringify(playerMap, null, 2)}\n`);
 
 console.log(
-  `Built ${playerMap.width}x${playerMap.height} player map with ${copiedAssets.size} tile assets and ${playerMap.foggedHexCount} concealed features.`,
+  `Built ${playerMap.width}x${playerMap.height} player map with ${copiedAssets.size} tile assets; ${foggedIndexes.size} concealed features were omitted.`,
 );

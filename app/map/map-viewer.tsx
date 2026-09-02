@@ -25,7 +25,6 @@ type MapCell = {
   coordinate: string;
   column: number;
   row: number;
-  fogged: boolean;
   title: string;
   description: string;
   tiles: MapTile[];
@@ -35,7 +34,7 @@ type PlayerMap = {
   name: string;
   width: number;
   height: number;
-  foggedHexCount: number;
+  knownLocationCount: number;
   cells: MapCell[];
 };
 
@@ -60,6 +59,7 @@ export function MapViewer({ map }: { map: PlayerMap }) {
     startY: number;
     originX: number;
     originY: number;
+    cellIndex: number | null;
   } | null>(null);
   const draggedRef = useRef(false);
   const [selectedCell, setSelectedCell] = useState<MapCell | null>(null);
@@ -143,6 +143,10 @@ export function MapViewer({ map }: { map: PlayerMap }) {
 
   function handlePointerDown(event: ReactPointerEvent<HTMLDivElement>) {
     if (event.button !== 0) return;
+    const target = event.target as HTMLElement;
+    if (target.closest("[data-map-control]")) return;
+
+    const cellButton = target.closest<HTMLButtonElement>("[data-cell-index]");
     event.currentTarget.setPointerCapture(event.pointerId);
     draggedRef.current = false;
     pointerRef.current = {
@@ -151,6 +155,7 @@ export function MapViewer({ map }: { map: PlayerMap }) {
       startY: event.clientY,
       originX: view.x,
       originY: view.y,
+      cellIndex: cellButton ? Number(cellButton.dataset.cellIndex) : null,
     };
   }
 
@@ -168,18 +173,16 @@ export function MapViewer({ map }: { map: PlayerMap }) {
   }
 
   function handlePointerUp(event: ReactPointerEvent<HTMLDivElement>) {
-    if (pointerRef.current?.id === event.pointerId) {
+    const pointer = pointerRef.current;
+    if (pointer?.id === event.pointerId) {
+      const cellIndex = pointer.cellIndex;
       pointerRef.current = null;
       event.currentTarget.releasePointerCapture(event.pointerId);
-    }
-  }
-
-  function selectCell(cell: MapCell) {
-    if (draggedRef.current) {
+      if (!draggedRef.current && cellIndex !== null) {
+        setSelectedCell(map.cells[cellIndex]);
+      }
       draggedRef.current = false;
-      return;
     }
-    setSelectedCell(cell);
   }
 
   return (
@@ -190,7 +193,7 @@ export function MapViewer({ map }: { map: PlayerMap }) {
           <h1>{map.name}</h1>
         </div>
         <div className={styles.headerActions}>
-          <span>{map.foggedHexCount} uncharted features</span>
+          <span>{map.knownLocationCount} known locations</span>
           <Link href="/">Atlas</Link>
         </div>
       </header>
@@ -205,7 +208,12 @@ export function MapViewer({ map }: { map: PlayerMap }) {
           onPointerUp={handlePointerUp}
           onPointerCancel={handlePointerUp}
         >
-          <div className={styles.mapTools} aria-label="Map controls">
+          <div
+            className={styles.mapTools}
+            aria-label="Map controls"
+            data-map-control
+            onPointerDown={(event) => event.stopPropagation()}
+          >
             <button type="button" onClick={() => zoomBy(1.25)} aria-label="Zoom in">
               +
             </button>
@@ -252,20 +260,19 @@ export function MapViewer({ map }: { map: PlayerMap }) {
                       }}
                     />
                   ))}
-                  {cell.fogged ? (
-                    <span className={styles.fogMarker} aria-hidden="true">
-                      ?
+                  {cell.title ? (
+                    <span className={styles.poiLabel} aria-hidden="true">
+                      {cell.title}
                     </span>
                   ) : null}
                   <button
                     type="button"
                     className={`${styles.hexButton} ${isSelected ? styles.selectedHex : ""}`}
-                    onClick={() => selectCell(cell)}
-                    aria-label={
-                      cell.fogged
-                        ? `Hex ${cell.coordinate}, uncharted feature`
-                        : `Hex ${cell.coordinate}${cell.title ? `, ${cell.title}` : ""}`
-                    }
+                    data-cell-index={cell.index}
+                    onClick={(event) => {
+                      if (event.detail === 0) setSelectedCell(cell);
+                    }}
+                    aria-label={`Hex ${cell.coordinate}${cell.title ? `, ${cell.title}` : ""}`}
                   >
                     <span>{cell.coordinate}</span>
                   </button>
@@ -279,15 +286,9 @@ export function MapViewer({ map }: { map: PlayerMap }) {
           {selectedCell ? (
             <>
               <p className={styles.detailCoordinate}>Hex {selectedCell.coordinate}</p>
-              <h2>
-                {selectedCell.fogged
-                  ? "Uncharted feature"
-                  : selectedCell.title || "Open country"}
-              </h2>
+              <h2>{selectedCell.title || "Open country"}</h2>
               <p>
-                {selectedCell.fogged
-                  ? "The terrain is known, but whatever lies here has not yet been discovered."
-                  : selectedCell.description || "No discovery has been recorded here yet."}
+                {selectedCell.description || "No discovery has been recorded here yet."}
               </p>
             </>
           ) : (
@@ -298,7 +299,7 @@ export function MapViewer({ map }: { map: PlayerMap }) {
             </>
           )}
           <div className={styles.legend}>
-            <span><i className={styles.legendFog}>?</i> Concealed feature</span>
+            <span><i className={styles.legendLocation} /> Named location</span>
             <span><i className={styles.legendKnown} /> Known terrain</span>
           </div>
         </aside>

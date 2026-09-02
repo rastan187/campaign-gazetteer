@@ -5,14 +5,13 @@
   "flatTop": false,
   "topStaggered": false,
   "generatedFrom": "region1_82126.map",
-  "foggedHexCount": 39,
+  "knownLocationCount": 22,
   "cells": [
     {
       "index": 0,
       "coordinate": "0101",
       "column": 1,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -35,7 +34,6 @@
       "coordinate": "0201",
       "column": 2,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -58,7 +56,6 @@
       "coordinate": "0301",
       "column": 3,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -81,7 +78,6 @@
       "coordinate": "0401",
       "column": 4,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -104,7 +100,6 @@
       "coordinate": "0501",
       "column": 5,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -127,7 +122,6 @@
       "coordinate": "0601",
       "column": 6,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -150,7 +144,6 @@
       "coordinate": "0701",
       "column": 7,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -167,7 +160,6 @@
       "coordinate": "0801",
       "column": 8,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -190,7 +182,6 @@
       "coordinate": "0901",
       "column": 9,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -213,7 +204,6 @@
       "coordinate": "1001",
       "column": 10,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -236,7 +226,6 @@
       "coordinate": "1101",
       "column": 11,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -259,7 +248,6 @@
       "coordinate": "1201",
       "column": 12,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -282,7 +270,6 @@
       "coordinate": "1301",
       "column": 13,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -305,7 +292,6 @@
       "coordinate": "1401",
       "column": 14,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -328,7 +314,6 @@
       "coordinate": "1501",
       "column": 15,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -357,7 +342,6 @@
       "coordinate": "1601",
       "column": 16,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -380,7 +364,6 @@
       "coordinate": "1701",
       "column": 17,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -403,7 +386,6 @@
       "coordinate": "1801",
       "column": 18,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -426,7 +408,6 @@
       "coordinate": "1901",
       "column": 19,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -455,7 +436,6 @@
       "coordinate": "2001",
       "column": 20,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -478,7 +458,6 @@
       "coordinate": "2101",
       "column": 21,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -501,7 +480,6 @@
       "coordinate": "2201",
       "column": 22,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -524,7 +502,6 @@
       "coordinate": "2301",
       "column": 23,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -547,7 +524,6 @@
       "coordinate": "2401",
       "column": 24,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -570,7 +546,6 @@
       "coordinate": "2501",
       "column": 25,
       "row": 1,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -593,7 +568,6 @@
       "coordinate": "0102",
       "column": 1,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -616,7 +590,6 @@
       "coordinate": "0202",
       "column": 2,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -639,7 +612,6 @@
       "coordinate": "0302",
       "column": 3,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -662,7 +634,6 @@
       "coordinate": "0402",
       "column": 4,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -685,7 +656,6 @@
       "coordinate": "0502",
       "column": 5,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -708,7 +678,6 @@
       "coordinate": "0602",
       "column": 6,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -731,7 +700,6 @@
       "coordinate": "0702",
       "column": 7,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -754,7 +722,6 @@
       "coordinate": "0802",
       "column": 8,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -777,7 +744,6 @@
       "coordinate": "0902",
       "column": 9,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -800,7 +766,6 @@
       "coordinate": "1002",
       "column": 10,
       "row": 2,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -823,7 +788,6 @@
       "coordinate": "1102",
       "column": 11,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -846,7 +810,6 @@
       "coordinate": "1202",
       "column": 12,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -869,7 +832,6 @@
       "coordinate": "1302",
       "column": 13,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -892,7 +854,6 @@
       "coordinate": "1402",
       "column": 14,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -915,7 +876,6 @@
       "coordinate": "1502",
       "column": 15,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -944,7 +904,6 @@
       "coordinate": "1602",
       "column": 16,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -967,7 +926,6 @@
       "coordinate": "1702",
       "column": 17,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -990,7 +948,6 @@
       "coordinate": "1802",
       "column": 18,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1013,7 +970,6 @@
       "coordinate": "1902",
       "column": 19,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1042,7 +998,6 @@
       "coordinate": "2002",
       "column": 20,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1071,7 +1026,6 @@
       "coordinate": "2102",
       "column": 21,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1100,7 +1054,6 @@
       "coordinate": "2202",
       "column": 22,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1123,7 +1076,6 @@
       "coordinate": "2302",
       "column": 23,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1146,7 +1098,6 @@
       "coordinate": "2402",
       "column": 24,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1169,7 +1120,6 @@
       "coordinate": "2502",
       "column": 25,
       "row": 2,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1192,7 +1142,6 @@
       "coordinate": "0103",
       "column": 1,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1215,7 +1164,6 @@
       "coordinate": "0203",
       "column": 2,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1238,7 +1186,6 @@
       "coordinate": "0303",
       "column": 3,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1261,7 +1208,6 @@
       "coordinate": "0403",
       "column": 4,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1284,7 +1230,6 @@
       "coordinate": "0503",
       "column": 5,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1307,7 +1252,6 @@
       "coordinate": "0603",
       "column": 6,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1330,7 +1274,6 @@
       "coordinate": "0703",
       "column": 7,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1353,7 +1296,6 @@
       "coordinate": "0803",
       "column": 8,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1376,7 +1318,6 @@
       "coordinate": "0903",
       "column": 9,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1399,7 +1340,6 @@
       "coordinate": "1003",
       "column": 10,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1422,7 +1362,6 @@
       "coordinate": "1103",
       "column": 11,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1445,7 +1384,6 @@
       "coordinate": "1203",
       "column": 12,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1468,7 +1406,6 @@
       "coordinate": "1303",
       "column": 13,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1491,7 +1428,6 @@
       "coordinate": "1403",
       "column": 14,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1514,7 +1450,6 @@
       "coordinate": "1503",
       "column": 15,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1543,7 +1478,6 @@
       "coordinate": "1603",
       "column": 16,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1566,7 +1500,6 @@
       "coordinate": "1703",
       "column": 17,
       "row": 3,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -1589,7 +1522,6 @@
       "coordinate": "1803",
       "column": 18,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1612,7 +1544,6 @@
       "coordinate": "1903",
       "column": 19,
       "row": 3,
-      "fogged": false,
       "title": "Cedro Azul",
       "description": "",
       "tiles": [
@@ -1647,7 +1578,6 @@
       "coordinate": "2003",
       "column": 20,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1670,7 +1600,6 @@
       "coordinate": "2103",
       "column": 21,
       "row": 3,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -1693,7 +1622,6 @@
       "coordinate": "2203",
       "column": 22,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1722,7 +1650,6 @@
       "coordinate": "2303",
       "column": 23,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1745,7 +1672,6 @@
       "coordinate": "2403",
       "column": 24,
       "row": 3,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -1768,7 +1694,6 @@
       "coordinate": "2503",
       "column": 25,
       "row": 3,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1791,7 +1716,6 @@
       "coordinate": "0104",
       "column": 1,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1814,7 +1738,6 @@
       "coordinate": "0204",
       "column": 2,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1837,7 +1760,6 @@
       "coordinate": "0304",
       "column": 3,
       "row": 4,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -1860,7 +1782,6 @@
       "coordinate": "0404",
       "column": 4,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1883,7 +1804,6 @@
       "coordinate": "0504",
       "column": 5,
       "row": 4,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -1906,7 +1826,6 @@
       "coordinate": "0604",
       "column": 6,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1929,7 +1848,6 @@
       "coordinate": "0704",
       "column": 7,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1952,7 +1870,6 @@
       "coordinate": "0804",
       "column": 8,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1975,7 +1892,6 @@
       "coordinate": "0904",
       "column": 9,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -1998,7 +1914,6 @@
       "coordinate": "1004",
       "column": 10,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2021,7 +1936,6 @@
       "coordinate": "1104",
       "column": 11,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2044,7 +1958,6 @@
       "coordinate": "1204",
       "column": 12,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2067,7 +1980,6 @@
       "coordinate": "1304",
       "column": 13,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2090,7 +2002,6 @@
       "coordinate": "1404",
       "column": 14,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2119,7 +2030,6 @@
       "coordinate": "1504",
       "column": 15,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2142,7 +2052,6 @@
       "coordinate": "1604",
       "column": 16,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2165,7 +2074,6 @@
       "coordinate": "1704",
       "column": 17,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2188,7 +2096,6 @@
       "coordinate": "1804",
       "column": 18,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2217,7 +2124,6 @@
       "coordinate": "1904",
       "column": 19,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2240,7 +2146,6 @@
       "coordinate": "2004",
       "column": 20,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2269,7 +2174,6 @@
       "coordinate": "2104",
       "column": 21,
       "row": 4,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -2298,7 +2202,6 @@
       "coordinate": "2204",
       "column": 22,
       "row": 4,
-      "fogged": false,
       "title": "Cedo Castle",
       "description": "",
       "tiles": [
@@ -2333,7 +2236,6 @@
       "coordinate": "2304",
       "column": 23,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2356,7 +2258,6 @@
       "coordinate": "2404",
       "column": 24,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2379,7 +2280,6 @@
       "coordinate": "2504",
       "column": 25,
       "row": 4,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2402,7 +2302,6 @@
       "coordinate": "0105",
       "column": 1,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2425,7 +2324,6 @@
       "coordinate": "0205",
       "column": 2,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2448,7 +2346,6 @@
       "coordinate": "0305",
       "column": 3,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2471,7 +2368,6 @@
       "coordinate": "0405",
       "column": 4,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2494,7 +2390,6 @@
       "coordinate": "0505",
       "column": 5,
       "row": 5,
-      "fogged": false,
       "title": "TK Cult Temple",
       "description": "HQ of the faction associated with the face in the mountain.",
       "tiles": [
@@ -2523,7 +2418,6 @@
       "coordinate": "0605",
       "column": 6,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2546,7 +2440,6 @@
       "coordinate": "0705",
       "column": 7,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2569,7 +2462,6 @@
       "coordinate": "0805",
       "column": 8,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2592,7 +2484,6 @@
       "coordinate": "0905",
       "column": 9,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2615,7 +2506,6 @@
       "coordinate": "1005",
       "column": 10,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2638,7 +2528,6 @@
       "coordinate": "1105",
       "column": 11,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2661,7 +2550,6 @@
       "coordinate": "1205",
       "column": 12,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2684,7 +2572,6 @@
       "coordinate": "1305",
       "column": 13,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2707,7 +2594,6 @@
       "coordinate": "1405",
       "column": 14,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2730,7 +2616,6 @@
       "coordinate": "1505",
       "column": 15,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2759,7 +2644,6 @@
       "coordinate": "1605",
       "column": 16,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2782,7 +2666,6 @@
       "coordinate": "1705",
       "column": 17,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2805,7 +2688,6 @@
       "coordinate": "1805",
       "column": 18,
       "row": 5,
-      "fogged": false,
       "title": "Atenco",
       "description": "",
       "tiles": [
@@ -2828,7 +2710,6 @@
       "coordinate": "1905",
       "column": 19,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2857,7 +2738,6 @@
       "coordinate": "2005",
       "column": 20,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2886,7 +2766,6 @@
       "coordinate": "2105",
       "column": 21,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2915,7 +2794,6 @@
       "coordinate": "2205",
       "column": 22,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2944,7 +2822,6 @@
       "coordinate": "2305",
       "column": 23,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -2979,7 +2856,6 @@
       "coordinate": "2405",
       "column": 24,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3002,7 +2878,6 @@
       "coordinate": "2505",
       "column": 25,
       "row": 5,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3025,7 +2900,6 @@
       "coordinate": "0106",
       "column": 1,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3048,7 +2922,6 @@
       "coordinate": "0206",
       "column": 2,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3071,7 +2944,6 @@
       "coordinate": "0306",
       "column": 3,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3094,7 +2966,6 @@
       "coordinate": "0406",
       "column": 4,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3117,7 +2988,6 @@
       "coordinate": "0506",
       "column": 5,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3140,7 +3010,6 @@
       "coordinate": "0606",
       "column": 6,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3163,7 +3032,6 @@
       "coordinate": "0706",
       "column": 7,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3186,7 +3054,6 @@
       "coordinate": "0806",
       "column": 8,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3209,7 +3076,6 @@
       "coordinate": "0906",
       "column": 9,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3232,7 +3098,6 @@
       "coordinate": "1006",
       "column": 10,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3255,7 +3120,6 @@
       "coordinate": "1106",
       "column": 11,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3278,7 +3142,6 @@
       "coordinate": "1206",
       "column": 12,
       "row": 6,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -3301,7 +3164,6 @@
       "coordinate": "1306",
       "column": 13,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3324,7 +3186,6 @@
       "coordinate": "1406",
       "column": 14,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3347,7 +3208,6 @@
       "coordinate": "1506",
       "column": 15,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3376,7 +3236,6 @@
       "coordinate": "1606",
       "column": 16,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3399,7 +3258,6 @@
       "coordinate": "1706",
       "column": 17,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3422,7 +3280,6 @@
       "coordinate": "1806",
       "column": 18,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3451,7 +3308,6 @@
       "coordinate": "1906",
       "column": 19,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3480,7 +3336,6 @@
       "coordinate": "2006",
       "column": 20,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3509,7 +3364,6 @@
       "coordinate": "2106",
       "column": 21,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3538,7 +3392,6 @@
       "coordinate": "2206",
       "column": 22,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3573,7 +3426,6 @@
       "coordinate": "2306",
       "column": 23,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3596,7 +3448,6 @@
       "coordinate": "2406",
       "column": 24,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3619,7 +3470,6 @@
       "coordinate": "2506",
       "column": 25,
       "row": 6,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3642,7 +3492,6 @@
       "coordinate": "0107",
       "column": 1,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3665,7 +3514,6 @@
       "coordinate": "0207",
       "column": 2,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3688,7 +3536,6 @@
       "coordinate": "0307",
       "column": 3,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3711,7 +3558,6 @@
       "coordinate": "0407",
       "column": 4,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3734,7 +3580,6 @@
       "coordinate": "0507",
       "column": 5,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3757,7 +3602,6 @@
       "coordinate": "0607",
       "column": 6,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3780,7 +3624,6 @@
       "coordinate": "0707",
       "column": 7,
       "row": 7,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -3803,7 +3646,6 @@
       "coordinate": "0807",
       "column": 8,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3826,7 +3668,6 @@
       "coordinate": "0907",
       "column": 9,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3849,7 +3690,6 @@
       "coordinate": "1007",
       "column": 10,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3872,7 +3712,6 @@
       "coordinate": "1107",
       "column": 11,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3895,7 +3734,6 @@
       "coordinate": "1207",
       "column": 12,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3918,7 +3756,6 @@
       "coordinate": "1307",
       "column": 13,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3941,7 +3778,6 @@
       "coordinate": "1407",
       "column": 14,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3964,7 +3800,6 @@
       "coordinate": "1507",
       "column": 15,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -3993,7 +3828,6 @@
       "coordinate": "1607",
       "column": 16,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4010,7 +3844,6 @@
       "coordinate": "1707",
       "column": 17,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4033,7 +3866,6 @@
       "coordinate": "1807",
       "column": 18,
       "row": 7,
-      "fogged": false,
       "title": "Low Crossing",
       "description": "",
       "tiles": [
@@ -4074,7 +3906,6 @@
       "coordinate": "1907",
       "column": 19,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4103,7 +3934,6 @@
       "coordinate": "2007",
       "column": 20,
       "row": 7,
-      "fogged": false,
       "title": "Xiiom",
       "description": "",
       "tiles": [
@@ -4132,7 +3962,6 @@
       "coordinate": "2107",
       "column": 21,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4161,7 +3990,6 @@
       "coordinate": "2207",
       "column": 22,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4196,7 +4024,6 @@
       "coordinate": "2307",
       "column": 23,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4219,7 +4046,6 @@
       "coordinate": "2407",
       "column": 24,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4242,7 +4068,6 @@
       "coordinate": "2507",
       "column": 25,
       "row": 7,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4265,7 +4090,6 @@
       "coordinate": "0108",
       "column": 1,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4288,7 +4112,6 @@
       "coordinate": "0208",
       "column": 2,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4311,7 +4134,6 @@
       "coordinate": "0308",
       "column": 3,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4334,7 +4156,6 @@
       "coordinate": "0408",
       "column": 4,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4357,7 +4178,6 @@
       "coordinate": "0508",
       "column": 5,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4380,7 +4200,6 @@
       "coordinate": "0608",
       "column": 6,
       "row": 8,
-      "fogged": false,
       "title": "TK Fort",
       "description": "",
       "tiles": [
@@ -4409,7 +4228,6 @@
       "coordinate": "0708",
       "column": 7,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4438,7 +4256,6 @@
       "coordinate": "0808",
       "column": 8,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4461,7 +4278,6 @@
       "coordinate": "0908",
       "column": 9,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4484,7 +4300,6 @@
       "coordinate": "1008",
       "column": 10,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4507,7 +4322,6 @@
       "coordinate": "1108",
       "column": 11,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4530,7 +4344,6 @@
       "coordinate": "1208",
       "column": 12,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4553,7 +4366,6 @@
       "coordinate": "1308",
       "column": 13,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4576,7 +4388,6 @@
       "coordinate": "1408",
       "column": 14,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4599,7 +4410,6 @@
       "coordinate": "1508",
       "column": 15,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4616,7 +4426,6 @@
       "coordinate": "1608",
       "column": 16,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4633,7 +4442,6 @@
       "coordinate": "1708",
       "column": 17,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4668,7 +4476,6 @@
       "coordinate": "1808",
       "column": 18,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4691,7 +4498,6 @@
       "coordinate": "1908",
       "column": 19,
       "row": 8,
-      "fogged": false,
       "title": "Wagones",
       "description": "",
       "tiles": [
@@ -4714,7 +4520,6 @@
       "coordinate": "2008",
       "column": 20,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4743,7 +4548,6 @@
       "coordinate": "2108",
       "column": 21,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4772,7 +4576,6 @@
       "coordinate": "2208",
       "column": 22,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4795,7 +4598,6 @@
       "coordinate": "2308",
       "column": 23,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4818,7 +4620,6 @@
       "coordinate": "2408",
       "column": 24,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4841,7 +4642,6 @@
       "coordinate": "2508",
       "column": 25,
       "row": 8,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4864,7 +4664,6 @@
       "coordinate": "0109",
       "column": 1,
       "row": 9,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -4887,7 +4686,6 @@
       "coordinate": "0209",
       "column": 2,
       "row": 9,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -4910,7 +4708,6 @@
       "coordinate": "0309",
       "column": 3,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4933,7 +4730,6 @@
       "coordinate": "0409",
       "column": 4,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -4956,7 +4752,6 @@
       "coordinate": "0509",
       "column": 5,
       "row": 9,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -4979,7 +4774,6 @@
       "coordinate": "0609",
       "column": 6,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5002,7 +4796,6 @@
       "coordinate": "0709",
       "column": 7,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5025,7 +4818,6 @@
       "coordinate": "0809",
       "column": 8,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5054,7 +4846,6 @@
       "coordinate": "0909",
       "column": 9,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5077,7 +4868,6 @@
       "coordinate": "1009",
       "column": 10,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5100,7 +4890,6 @@
       "coordinate": "1109",
       "column": 11,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5123,7 +4912,6 @@
       "coordinate": "1209",
       "column": 12,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5146,7 +4934,6 @@
       "coordinate": "1309",
       "column": 13,
       "row": 9,
-      "fogged": false,
       "title": "TK Fort",
       "description": "",
       "tiles": [
@@ -5169,7 +4956,6 @@
       "coordinate": "1409",
       "column": 14,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5192,7 +4978,6 @@
       "coordinate": "1509",
       "column": 15,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5209,7 +4994,6 @@
       "coordinate": "1609",
       "column": 16,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5226,7 +5010,6 @@
       "coordinate": "1709",
       "column": 17,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5255,7 +5038,6 @@
       "coordinate": "1809",
       "column": 18,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5278,7 +5060,6 @@
       "coordinate": "1909",
       "column": 19,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5301,7 +5082,6 @@
       "coordinate": "2009",
       "column": 20,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5330,7 +5110,6 @@
       "coordinate": "2109",
       "column": 21,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5353,7 +5132,6 @@
       "coordinate": "2209",
       "column": 22,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5376,7 +5154,6 @@
       "coordinate": "2309",
       "column": 23,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5399,7 +5176,6 @@
       "coordinate": "2409",
       "column": 24,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5422,7 +5198,6 @@
       "coordinate": "2509",
       "column": 25,
       "row": 9,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5445,7 +5220,6 @@
       "coordinate": "0110",
       "column": 1,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5468,7 +5242,6 @@
       "coordinate": "0210",
       "column": 2,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5491,7 +5264,6 @@
       "coordinate": "0310",
       "column": 3,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5514,7 +5286,6 @@
       "coordinate": "0410",
       "column": 4,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5537,7 +5308,6 @@
       "coordinate": "0510",
       "column": 5,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5560,7 +5330,6 @@
       "coordinate": "0610",
       "column": 6,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5583,7 +5352,6 @@
       "coordinate": "0710",
       "column": 7,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5612,7 +5380,6 @@
       "coordinate": "0810",
       "column": 8,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5635,7 +5402,6 @@
       "coordinate": "0910",
       "column": 9,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5652,7 +5418,6 @@
       "coordinate": "1010",
       "column": 10,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5669,7 +5434,6 @@
       "coordinate": "1110",
       "column": 11,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5686,7 +5450,6 @@
       "coordinate": "1210",
       "column": 12,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5709,7 +5472,6 @@
       "coordinate": "1310",
       "column": 13,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5732,7 +5494,6 @@
       "coordinate": "1410",
       "column": 14,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5755,7 +5516,6 @@
       "coordinate": "1510",
       "column": 15,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5778,7 +5538,6 @@
       "coordinate": "1610",
       "column": 16,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5807,7 +5566,6 @@
       "coordinate": "1710",
       "column": 17,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5830,7 +5588,6 @@
       "coordinate": "1810",
       "column": 18,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5853,7 +5610,6 @@
       "coordinate": "1910",
       "column": 19,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5876,7 +5632,6 @@
       "coordinate": "2010",
       "column": 20,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5905,7 +5660,6 @@
       "coordinate": "2110",
       "column": 21,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5934,7 +5688,6 @@
       "coordinate": "2210",
       "column": 22,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5957,7 +5710,6 @@
       "coordinate": "2310",
       "column": 23,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -5980,7 +5732,6 @@
       "coordinate": "2410",
       "column": 24,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6003,7 +5754,6 @@
       "coordinate": "2510",
       "column": 25,
       "row": 10,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6026,7 +5776,6 @@
       "coordinate": "0111",
       "column": 1,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6049,7 +5798,6 @@
       "coordinate": "0211",
       "column": 2,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6072,7 +5820,6 @@
       "coordinate": "0311",
       "column": 3,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6095,7 +5842,6 @@
       "coordinate": "0411",
       "column": 4,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6118,7 +5864,6 @@
       "coordinate": "0511",
       "column": 5,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6141,7 +5886,6 @@
       "coordinate": "0611",
       "column": 6,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6164,7 +5908,6 @@
       "coordinate": "0711",
       "column": 7,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6187,7 +5930,6 @@
       "coordinate": "0811",
       "column": 8,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6222,7 +5964,6 @@
       "coordinate": "0911",
       "column": 9,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6245,7 +5986,6 @@
       "coordinate": "1011",
       "column": 10,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6262,7 +6002,6 @@
       "coordinate": "1111",
       "column": 11,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6279,7 +6018,6 @@
       "coordinate": "1211",
       "column": 12,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6302,7 +6040,6 @@
       "coordinate": "1311",
       "column": 13,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6319,7 +6056,6 @@
       "coordinate": "1411",
       "column": 14,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6336,7 +6072,6 @@
       "coordinate": "1511",
       "column": 15,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6359,7 +6094,6 @@
       "coordinate": "1611",
       "column": 16,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6388,7 +6122,6 @@
       "coordinate": "1711",
       "column": 17,
       "row": 11,
-      "fogged": false,
       "title": "TK Michi no Eki",
       "description": "",
       "tiles": [
@@ -6411,7 +6144,6 @@
       "coordinate": "1811",
       "column": 18,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6434,7 +6166,6 @@
       "coordinate": "1911",
       "column": 19,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6457,7 +6188,6 @@
       "coordinate": "2011",
       "column": 20,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6486,7 +6216,6 @@
       "coordinate": "2111",
       "column": 21,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6515,7 +6244,6 @@
       "coordinate": "2211",
       "column": 22,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6538,7 +6266,6 @@
       "coordinate": "2311",
       "column": 23,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6561,7 +6288,6 @@
       "coordinate": "2411",
       "column": 24,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6584,7 +6310,6 @@
       "coordinate": "2511",
       "column": 25,
       "row": 11,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6607,7 +6332,6 @@
       "coordinate": "0112",
       "column": 1,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6630,7 +6354,6 @@
       "coordinate": "0212",
       "column": 2,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6653,7 +6376,6 @@
       "coordinate": "0312",
       "column": 3,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6676,7 +6398,6 @@
       "coordinate": "0412",
       "column": 4,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6699,7 +6420,6 @@
       "coordinate": "0512",
       "column": 5,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6722,7 +6442,6 @@
       "coordinate": "0612",
       "column": 6,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6745,7 +6464,6 @@
       "coordinate": "0712",
       "column": 7,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6774,7 +6492,6 @@
       "coordinate": "0812",
       "column": 8,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6803,7 +6520,6 @@
       "coordinate": "0912",
       "column": 9,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6832,7 +6548,6 @@
       "coordinate": "1012",
       "column": 10,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6849,7 +6564,6 @@
       "coordinate": "1112",
       "column": 11,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6872,7 +6586,6 @@
       "coordinate": "1212",
       "column": 12,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6889,7 +6602,6 @@
       "coordinate": "1312",
       "column": 13,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6906,7 +6618,6 @@
       "coordinate": "1412",
       "column": 14,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6923,7 +6634,6 @@
       "coordinate": "1512",
       "column": 15,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6952,7 +6662,6 @@
       "coordinate": "1612",
       "column": 16,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6975,7 +6684,6 @@
       "coordinate": "1712",
       "column": 17,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -6998,7 +6706,6 @@
       "coordinate": "1812",
       "column": 18,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7021,7 +6728,6 @@
       "coordinate": "1912",
       "column": 19,
       "row": 12,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -7044,7 +6750,6 @@
       "coordinate": "2012",
       "column": 20,
       "row": 12,
-      "fogged": false,
       "title": "Reed-and-Stone",
       "description": "",
       "tiles": [
@@ -7085,7 +6790,6 @@
       "coordinate": "2112",
       "column": 21,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7108,7 +6812,6 @@
       "coordinate": "2212",
       "column": 22,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7131,7 +6834,6 @@
       "coordinate": "2312",
       "column": 23,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7154,7 +6856,6 @@
       "coordinate": "2412",
       "column": 24,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7177,7 +6878,6 @@
       "coordinate": "2512",
       "column": 25,
       "row": 12,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7200,7 +6900,6 @@
       "coordinate": "0113",
       "column": 1,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7217,7 +6916,6 @@
       "coordinate": "0213",
       "column": 2,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7240,7 +6938,6 @@
       "coordinate": "0313",
       "column": 3,
       "row": 13,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -7263,7 +6960,6 @@
       "coordinate": "0413",
       "column": 4,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7286,7 +6982,6 @@
       "coordinate": "0513",
       "column": 5,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7309,7 +7004,6 @@
       "coordinate": "0613",
       "column": 6,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7332,7 +7026,6 @@
       "coordinate": "0713",
       "column": 7,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7355,7 +7048,6 @@
       "coordinate": "0813",
       "column": 8,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7378,7 +7070,6 @@
       "coordinate": "0913",
       "column": 9,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7401,7 +7092,6 @@
       "coordinate": "1013",
       "column": 10,
       "row": 13,
-      "fogged": false,
       "title": "TK Fort",
       "description": "",
       "tiles": [
@@ -7436,7 +7126,6 @@
       "coordinate": "1113",
       "column": 11,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7465,7 +7154,6 @@
       "coordinate": "1213",
       "column": 12,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7482,7 +7170,6 @@
       "coordinate": "1313",
       "column": 13,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7499,7 +7186,6 @@
       "coordinate": "1413",
       "column": 14,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7516,7 +7202,6 @@
       "coordinate": "1513",
       "column": 15,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7545,7 +7230,6 @@
       "coordinate": "1613",
       "column": 16,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7574,7 +7258,6 @@
       "coordinate": "1713",
       "column": 17,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7597,7 +7280,6 @@
       "coordinate": "1813",
       "column": 18,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7620,7 +7302,6 @@
       "coordinate": "1913",
       "column": 19,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7649,7 +7330,6 @@
       "coordinate": "2013",
       "column": 20,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7678,7 +7358,6 @@
       "coordinate": "2113",
       "column": 21,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7701,7 +7380,6 @@
       "coordinate": "2213",
       "column": 22,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7724,7 +7402,6 @@
       "coordinate": "2313",
       "column": 23,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7747,7 +7424,6 @@
       "coordinate": "2413",
       "column": 24,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7770,7 +7446,6 @@
       "coordinate": "2513",
       "column": 25,
       "row": 13,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7793,7 +7468,6 @@
       "coordinate": "0114",
       "column": 1,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7810,7 +7484,6 @@
       "coordinate": "0214",
       "column": 2,
       "row": 14,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -7827,7 +7500,6 @@
       "coordinate": "0314",
       "column": 3,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7850,7 +7522,6 @@
       "coordinate": "0414",
       "column": 4,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7873,7 +7544,6 @@
       "coordinate": "0514",
       "column": 5,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7896,7 +7566,6 @@
       "coordinate": "0614",
       "column": 6,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7919,7 +7588,6 @@
       "coordinate": "0714",
       "column": 7,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7942,7 +7610,6 @@
       "coordinate": "0814",
       "column": 8,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7965,7 +7632,6 @@
       "coordinate": "0914",
       "column": 9,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -7988,7 +7654,6 @@
       "coordinate": "1014",
       "column": 10,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8011,7 +7676,6 @@
       "coordinate": "1114",
       "column": 11,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8034,7 +7698,6 @@
       "coordinate": "1214",
       "column": 12,
       "row": 14,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -8051,7 +7714,6 @@
       "coordinate": "1314",
       "column": 13,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8068,7 +7730,6 @@
       "coordinate": "1414",
       "column": 14,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8103,7 +7764,6 @@
       "coordinate": "1514",
       "column": 15,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8132,7 +7792,6 @@
       "coordinate": "1614",
       "column": 16,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8155,7 +7814,6 @@
       "coordinate": "1714",
       "column": 17,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8178,7 +7836,6 @@
       "coordinate": "1814",
       "column": 18,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8201,7 +7858,6 @@
       "coordinate": "1914",
       "column": 19,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8230,7 +7886,6 @@
       "coordinate": "2014",
       "column": 20,
       "row": 14,
-      "fogged": false,
       "title": "Rockmouth",
       "description": "",
       "tiles": [
@@ -8271,7 +7926,6 @@
       "coordinate": "2114",
       "column": 21,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8294,7 +7948,6 @@
       "coordinate": "2214",
       "column": 22,
       "row": 14,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -8317,7 +7970,6 @@
       "coordinate": "2314",
       "column": 23,
       "row": 14,
-      "fogged": false,
       "title": "Rift Hold",
       "description": "",
       "tiles": [
@@ -8346,7 +7998,6 @@
       "coordinate": "2414",
       "column": 24,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8369,7 +8020,6 @@
       "coordinate": "2514",
       "column": 25,
       "row": 14,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8392,7 +8042,6 @@
       "coordinate": "0115",
       "column": 1,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8409,7 +8058,6 @@
       "coordinate": "0215",
       "column": 2,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8426,7 +8074,6 @@
       "coordinate": "0315",
       "column": 3,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8449,7 +8096,6 @@
       "coordinate": "0415",
       "column": 4,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8472,7 +8118,6 @@
       "coordinate": "0515",
       "column": 5,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8495,7 +8140,6 @@
       "coordinate": "0615",
       "column": 6,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8518,7 +8162,6 @@
       "coordinate": "0715",
       "column": 7,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8541,7 +8184,6 @@
       "coordinate": "0815",
       "column": 8,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8564,7 +8206,6 @@
       "coordinate": "0915",
       "column": 9,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8581,7 +8222,6 @@
       "coordinate": "1015",
       "column": 10,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8604,7 +8244,6 @@
       "coordinate": "1115",
       "column": 11,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8627,7 +8266,6 @@
       "coordinate": "1215",
       "column": 12,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8650,7 +8288,6 @@
       "coordinate": "1315",
       "column": 13,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8667,7 +8304,6 @@
       "coordinate": "1415",
       "column": 14,
       "row": 15,
-      "fogged": false,
       "title": "TK Michi no Eki",
       "description": "",
       "tiles": [
@@ -8702,7 +8338,6 @@
       "coordinate": "1515",
       "column": 15,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8725,7 +8360,6 @@
       "coordinate": "1615",
       "column": 16,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8748,7 +8382,6 @@
       "coordinate": "1715",
       "column": 17,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8771,7 +8404,6 @@
       "coordinate": "1815",
       "column": 18,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8794,7 +8426,6 @@
       "coordinate": "1915",
       "column": 19,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8823,7 +8454,6 @@
       "coordinate": "2015",
       "column": 20,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8852,7 +8482,6 @@
       "coordinate": "2115",
       "column": 21,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8881,7 +8510,6 @@
       "coordinate": "2215",
       "column": 22,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8904,7 +8532,6 @@
       "coordinate": "2315",
       "column": 23,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8933,7 +8560,6 @@
       "coordinate": "2415",
       "column": 24,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8956,7 +8582,6 @@
       "coordinate": "2515",
       "column": 25,
       "row": 15,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8979,7 +8604,6 @@
       "coordinate": "0116",
       "column": 1,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -8996,7 +8620,6 @@
       "coordinate": "0216",
       "column": 2,
       "row": 16,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -9019,7 +8642,6 @@
       "coordinate": "0316",
       "column": 3,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9042,7 +8664,6 @@
       "coordinate": "0416",
       "column": 4,
       "row": 16,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -9065,7 +8686,6 @@
       "coordinate": "0516",
       "column": 5,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9088,7 +8708,6 @@
       "coordinate": "0616",
       "column": 6,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9111,7 +8730,6 @@
       "coordinate": "0716",
       "column": 7,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9134,7 +8752,6 @@
       "coordinate": "0816",
       "column": 8,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9157,7 +8774,6 @@
       "coordinate": "0916",
       "column": 9,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9180,7 +8796,6 @@
       "coordinate": "1016",
       "column": 10,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9203,7 +8818,6 @@
       "coordinate": "1116",
       "column": 11,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9226,7 +8840,6 @@
       "coordinate": "1216",
       "column": 12,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9249,7 +8862,6 @@
       "coordinate": "1316",
       "column": 13,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9278,7 +8890,6 @@
       "coordinate": "1416",
       "column": 14,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9301,7 +8912,6 @@
       "coordinate": "1516",
       "column": 15,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9324,7 +8934,6 @@
       "coordinate": "1616",
       "column": 16,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9347,7 +8956,6 @@
       "coordinate": "1716",
       "column": 17,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9370,7 +8978,6 @@
       "coordinate": "1816",
       "column": 18,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9405,7 +9012,6 @@
       "coordinate": "1916",
       "column": 19,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9434,7 +9040,6 @@
       "coordinate": "2016",
       "column": 20,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9463,7 +9068,6 @@
       "coordinate": "2116",
       "column": 21,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9492,7 +9096,6 @@
       "coordinate": "2216",
       "column": 22,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9515,7 +9118,6 @@
       "coordinate": "2316",
       "column": 23,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9532,7 +9134,6 @@
       "coordinate": "2416",
       "column": 24,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9549,7 +9150,6 @@
       "coordinate": "2516",
       "column": 25,
       "row": 16,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9566,7 +9166,6 @@
       "coordinate": "0117",
       "column": 1,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9583,7 +9182,6 @@
       "coordinate": "0217",
       "column": 2,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9606,7 +9204,6 @@
       "coordinate": "0317",
       "column": 3,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9629,7 +9226,6 @@
       "coordinate": "0417",
       "column": 4,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9646,7 +9242,6 @@
       "coordinate": "0517",
       "column": 5,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9669,7 +9264,6 @@
       "coordinate": "0617",
       "column": 6,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9692,7 +9286,6 @@
       "coordinate": "0717",
       "column": 7,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9715,7 +9308,6 @@
       "coordinate": "0817",
       "column": 8,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9738,7 +9330,6 @@
       "coordinate": "0917",
       "column": 9,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9761,7 +9352,6 @@
       "coordinate": "1017",
       "column": 10,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9784,7 +9374,6 @@
       "coordinate": "1117",
       "column": 11,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9807,7 +9396,6 @@
       "coordinate": "1217",
       "column": 12,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9836,7 +9424,6 @@
       "coordinate": "1317",
       "column": 13,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9871,7 +9458,6 @@
       "coordinate": "1417",
       "column": 14,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9888,7 +9474,6 @@
       "coordinate": "1517",
       "column": 15,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9905,7 +9490,6 @@
       "coordinate": "1617",
       "column": 16,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9928,7 +9512,6 @@
       "coordinate": "1717",
       "column": 17,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9957,7 +9540,6 @@
       "coordinate": "1817",
       "column": 18,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -9992,7 +9574,6 @@
       "coordinate": "1917",
       "column": 19,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10015,7 +9596,6 @@
       "coordinate": "2017",
       "column": 20,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10038,7 +9618,6 @@
       "coordinate": "2117",
       "column": 21,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10061,7 +9640,6 @@
       "coordinate": "2217",
       "column": 22,
       "row": 17,
-      "fogged": false,
       "title": "Chasm Base Camp",
       "description": "",
       "tiles": [
@@ -10102,7 +9680,6 @@
       "coordinate": "2317",
       "column": 23,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10137,7 +9714,6 @@
       "coordinate": "2417",
       "column": 24,
       "row": 17,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -10160,7 +9736,6 @@
       "coordinate": "2517",
       "column": 25,
       "row": 17,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10177,7 +9752,6 @@
       "coordinate": "0118",
       "column": 1,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10200,7 +9774,6 @@
       "coordinate": "0218",
       "column": 2,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10223,7 +9796,6 @@
       "coordinate": "0318",
       "column": 3,
       "row": 18,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -10246,7 +9818,6 @@
       "coordinate": "0418",
       "column": 4,
       "row": 18,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -10269,7 +9840,6 @@
       "coordinate": "0518",
       "column": 5,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10292,7 +9862,6 @@
       "coordinate": "0618",
       "column": 6,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10315,7 +9884,6 @@
       "coordinate": "0718",
       "column": 7,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10338,7 +9906,6 @@
       "coordinate": "0818",
       "column": 8,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10361,7 +9928,6 @@
       "coordinate": "0918",
       "column": 9,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10384,7 +9950,6 @@
       "coordinate": "1018",
       "column": 10,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10407,7 +9972,6 @@
       "coordinate": "1118",
       "column": 11,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10436,7 +10000,6 @@
       "coordinate": "1218",
       "column": 12,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10465,7 +10028,6 @@
       "coordinate": "1318",
       "column": 13,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10488,7 +10050,6 @@
       "coordinate": "1418",
       "column": 14,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10511,7 +10072,6 @@
       "coordinate": "1518",
       "column": 15,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10528,7 +10088,6 @@
       "coordinate": "1618",
       "column": 16,
       "row": 18,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -10551,7 +10110,6 @@
       "coordinate": "1718",
       "column": 17,
       "row": 18,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -10580,7 +10138,6 @@
       "coordinate": "1818",
       "column": 18,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10603,7 +10160,6 @@
       "coordinate": "1918",
       "column": 19,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10626,7 +10182,6 @@
       "coordinate": "2018",
       "column": 20,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10649,7 +10204,6 @@
       "coordinate": "2118",
       "column": 21,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10672,7 +10226,6 @@
       "coordinate": "2218",
       "column": 22,
       "row": 18,
-      "fogged": false,
       "title": "Chasm of Man location",
       "description": "Two entrances: hole in the ground + some kind of stone head army site.",
       "tiles": [
@@ -10701,7 +10254,6 @@
       "coordinate": "2318",
       "column": 23,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10730,7 +10282,6 @@
       "coordinate": "2418",
       "column": 24,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10753,7 +10304,6 @@
       "coordinate": "2518",
       "column": 25,
       "row": 18,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10770,7 +10320,6 @@
       "coordinate": "0119",
       "column": 1,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10793,7 +10342,6 @@
       "coordinate": "0219",
       "column": 2,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10816,7 +10364,6 @@
       "coordinate": "0319",
       "column": 3,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10839,7 +10386,6 @@
       "coordinate": "0419",
       "column": 4,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10862,7 +10408,6 @@
       "coordinate": "0519",
       "column": 5,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10885,7 +10430,6 @@
       "coordinate": "0619",
       "column": 6,
       "row": 19,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -10908,7 +10452,6 @@
       "coordinate": "0719",
       "column": 7,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10931,7 +10474,6 @@
       "coordinate": "0819",
       "column": 8,
       "row": 19,
-      "fogged": false,
       "title": "TK Fort",
       "description": "",
       "tiles": [
@@ -10960,7 +10502,6 @@
       "coordinate": "0919",
       "column": 9,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -10983,7 +10524,6 @@
       "coordinate": "1019",
       "column": 10,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11006,7 +10546,6 @@
       "coordinate": "1119",
       "column": 11,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11041,7 +10580,6 @@
       "coordinate": "1219",
       "column": 12,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11070,7 +10608,6 @@
       "coordinate": "1319",
       "column": 13,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11093,7 +10630,6 @@
       "coordinate": "1419",
       "column": 14,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11116,7 +10652,6 @@
       "coordinate": "1519",
       "column": 15,
       "row": 19,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -11145,7 +10680,6 @@
       "coordinate": "1619",
       "column": 16,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11174,7 +10708,6 @@
       "coordinate": "1719",
       "column": 17,
       "row": 19,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -11203,7 +10736,6 @@
       "coordinate": "1819",
       "column": 18,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11226,7 +10758,6 @@
       "coordinate": "1919",
       "column": 19,
       "row": 19,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -11249,7 +10780,6 @@
       "coordinate": "2019",
       "column": 20,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11272,7 +10802,6 @@
       "coordinate": "2119",
       "column": 21,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11295,7 +10824,6 @@
       "coordinate": "2219",
       "column": 22,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11318,7 +10846,6 @@
       "coordinate": "2319",
       "column": 23,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11341,7 +10868,6 @@
       "coordinate": "2419",
       "column": 24,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11376,7 +10902,6 @@
       "coordinate": "2519",
       "column": 25,
       "row": 19,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11393,7 +10918,6 @@
       "coordinate": "0120",
       "column": 1,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11416,7 +10940,6 @@
       "coordinate": "0220",
       "column": 2,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11439,7 +10962,6 @@
       "coordinate": "0320",
       "column": 3,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11462,7 +10984,6 @@
       "coordinate": "0420",
       "column": 4,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11485,7 +11006,6 @@
       "coordinate": "0520",
       "column": 5,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11502,7 +11022,6 @@
       "coordinate": "0620",
       "column": 6,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11525,7 +11044,6 @@
       "coordinate": "0720",
       "column": 7,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11554,7 +11072,6 @@
       "coordinate": "0820",
       "column": 8,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11583,7 +11100,6 @@
       "coordinate": "0920",
       "column": 9,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11612,7 +11128,6 @@
       "coordinate": "1020",
       "column": 10,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11647,7 +11162,6 @@
       "coordinate": "1120",
       "column": 11,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11670,7 +11184,6 @@
       "coordinate": "1220",
       "column": 12,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11693,7 +11206,6 @@
       "coordinate": "1320",
       "column": 13,
       "row": 20,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -11716,7 +11228,6 @@
       "coordinate": "1420",
       "column": 14,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11745,7 +11256,6 @@
       "coordinate": "1520",
       "column": 15,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11768,7 +11278,6 @@
       "coordinate": "1620",
       "column": 16,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11791,7 +11300,6 @@
       "coordinate": "1720",
       "column": 17,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11814,7 +11322,6 @@
       "coordinate": "1820",
       "column": 18,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11837,7 +11344,6 @@
       "coordinate": "1920",
       "column": 19,
       "row": 20,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -11866,7 +11372,6 @@
       "coordinate": "2020",
       "column": 20,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11889,7 +11394,6 @@
       "coordinate": "2120",
       "column": 21,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11912,7 +11416,6 @@
       "coordinate": "2220",
       "column": 22,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11935,7 +11438,6 @@
       "coordinate": "2320",
       "column": 23,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11958,7 +11460,6 @@
       "coordinate": "2420",
       "column": 24,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -11993,7 +11494,6 @@
       "coordinate": "2520",
       "column": 25,
       "row": 20,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12010,7 +11510,6 @@
       "coordinate": "0121",
       "column": 1,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12027,7 +11526,6 @@
       "coordinate": "0221",
       "column": 2,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12044,7 +11542,6 @@
       "coordinate": "0321",
       "column": 3,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12067,7 +11564,6 @@
       "coordinate": "0421",
       "column": 4,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12090,7 +11586,6 @@
       "coordinate": "0521",
       "column": 5,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12113,7 +11608,6 @@
       "coordinate": "0621",
       "column": 6,
       "row": 21,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -12142,7 +11636,6 @@
       "coordinate": "0721",
       "column": 7,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12171,7 +11664,6 @@
       "coordinate": "0821",
       "column": 8,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12206,7 +11698,6 @@
       "coordinate": "0921",
       "column": 9,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12241,7 +11732,6 @@
       "coordinate": "1021",
       "column": 10,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12270,7 +11760,6 @@
       "coordinate": "1121",
       "column": 11,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12293,7 +11782,6 @@
       "coordinate": "1221",
       "column": 12,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12316,7 +11804,6 @@
       "coordinate": "1321",
       "column": 13,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12339,7 +11826,6 @@
       "coordinate": "1421",
       "column": 14,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12368,7 +11854,6 @@
       "coordinate": "1521",
       "column": 15,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12391,7 +11876,6 @@
       "coordinate": "1621",
       "column": 16,
       "row": 21,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -12414,7 +11898,6 @@
       "coordinate": "1721",
       "column": 17,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12437,7 +11920,6 @@
       "coordinate": "1821",
       "column": 18,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12460,7 +11942,6 @@
       "coordinate": "1921",
       "column": 19,
       "row": 21,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -12489,7 +11970,6 @@
       "coordinate": "2021",
       "column": 20,
       "row": 21,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -12512,7 +11992,6 @@
       "coordinate": "2121",
       "column": 21,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12535,7 +12014,6 @@
       "coordinate": "2221",
       "column": 22,
       "row": 21,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -12558,7 +12036,6 @@
       "coordinate": "2321",
       "column": 23,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12581,7 +12058,6 @@
       "coordinate": "2421",
       "column": 24,
       "row": 21,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12604,7 +12080,6 @@
       "coordinate": "2521",
       "column": 25,
       "row": 21,
-      "fogged": false,
       "title": "TK Fort",
       "description": "",
       "tiles": [
@@ -12633,7 +12108,6 @@
       "coordinate": "0122",
       "column": 1,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12650,7 +12124,6 @@
       "coordinate": "0222",
       "column": 2,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12673,7 +12146,6 @@
       "coordinate": "0322",
       "column": 3,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12696,7 +12168,6 @@
       "coordinate": "0422",
       "column": 4,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12719,7 +12190,6 @@
       "coordinate": "0522",
       "column": 5,
       "row": 22,
-      "fogged": false,
       "title": "Fruitful Friend",
       "description": "",
       "tiles": [
@@ -12742,7 +12212,6 @@
       "coordinate": "0622",
       "column": 6,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12771,7 +12240,6 @@
       "coordinate": "0722",
       "column": 7,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12794,7 +12262,6 @@
       "coordinate": "0822",
       "column": 8,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12817,7 +12284,6 @@
       "coordinate": "0922",
       "column": 9,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12840,7 +12306,6 @@
       "coordinate": "1022",
       "column": 10,
       "row": 22,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -12857,7 +12322,6 @@
       "coordinate": "1122",
       "column": 11,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12880,7 +12344,6 @@
       "coordinate": "1222",
       "column": 12,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12903,7 +12366,6 @@
       "coordinate": "1322",
       "column": 13,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12926,7 +12388,6 @@
       "coordinate": "1422",
       "column": 14,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12955,7 +12416,6 @@
       "coordinate": "1522",
       "column": 15,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -12978,7 +12438,6 @@
       "coordinate": "1622",
       "column": 16,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13001,7 +12460,6 @@
       "coordinate": "1722",
       "column": 17,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13024,7 +12482,6 @@
       "coordinate": "1822",
       "column": 18,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13047,7 +12504,6 @@
       "coordinate": "1922",
       "column": 19,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13070,7 +12526,6 @@
       "coordinate": "2022",
       "column": 20,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13093,7 +12548,6 @@
       "coordinate": "2122",
       "column": 21,
       "row": 22,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -13116,7 +12570,6 @@
       "coordinate": "2222",
       "column": 22,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13139,7 +12592,6 @@
       "coordinate": "2322",
       "column": 23,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13162,7 +12614,6 @@
       "coordinate": "2422",
       "column": 24,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13191,7 +12642,6 @@
       "coordinate": "2522",
       "column": 25,
       "row": 22,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13214,7 +12664,6 @@
       "coordinate": "0123",
       "column": 1,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13231,7 +12680,6 @@
       "coordinate": "0223",
       "column": 2,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13254,7 +12702,6 @@
       "coordinate": "0323",
       "column": 3,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13277,7 +12724,6 @@
       "coordinate": "0423",
       "column": 4,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13300,7 +12746,6 @@
       "coordinate": "0523",
       "column": 5,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13323,7 +12768,6 @@
       "coordinate": "0623",
       "column": 6,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13346,7 +12790,6 @@
       "coordinate": "0723",
       "column": 7,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13375,7 +12818,6 @@
       "coordinate": "0823",
       "column": 8,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13398,7 +12840,6 @@
       "coordinate": "0923",
       "column": 9,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13421,7 +12862,6 @@
       "coordinate": "1023",
       "column": 10,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13444,7 +12884,6 @@
       "coordinate": "1123",
       "column": 11,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13461,7 +12900,6 @@
       "coordinate": "1223",
       "column": 12,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13484,7 +12922,6 @@
       "coordinate": "1323",
       "column": 13,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13507,7 +12944,6 @@
       "coordinate": "1423",
       "column": 14,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13530,7 +12966,6 @@
       "coordinate": "1523",
       "column": 15,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13559,7 +12994,6 @@
       "coordinate": "1623",
       "column": 16,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13582,7 +13016,6 @@
       "coordinate": "1723",
       "column": 17,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13605,7 +13038,6 @@
       "coordinate": "1823",
       "column": 18,
       "row": 23,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -13628,7 +13060,6 @@
       "coordinate": "1923",
       "column": 19,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13651,7 +13082,6 @@
       "coordinate": "2023",
       "column": 20,
       "row": 23,
-      "fogged": true,
       "title": "",
       "description": "",
       "tiles": [
@@ -13674,7 +13104,6 @@
       "coordinate": "2123",
       "column": 21,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13697,7 +13126,6 @@
       "coordinate": "2223",
       "column": 22,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13720,7 +13148,6 @@
       "coordinate": "2323",
       "column": 23,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13743,7 +13170,6 @@
       "coordinate": "2423",
       "column": 24,
       "row": 23,
-      "fogged": false,
       "title": "Rune wreckage",
       "description": "Mountain wreckage marked with magical script. Good fit for a failed Star Counter expedition, ritual-orbit accident, or Chasm-related debris.",
       "tiles": [
@@ -13766,7 +13192,6 @@
       "coordinate": "2523",
       "column": 25,
       "row": 23,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13795,7 +13220,6 @@
       "coordinate": "0124",
       "column": 1,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13818,7 +13242,6 @@
       "coordinate": "0224",
       "column": 2,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13841,7 +13264,6 @@
       "coordinate": "0324",
       "column": 3,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13864,7 +13286,6 @@
       "coordinate": "0424",
       "column": 4,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13887,7 +13308,6 @@
       "coordinate": "0524",
       "column": 5,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13910,7 +13330,6 @@
       "coordinate": "0624",
       "column": 6,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13933,7 +13352,6 @@
       "coordinate": "0724",
       "column": 7,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13956,7 +13374,6 @@
       "coordinate": "0824",
       "column": 8,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -13979,7 +13396,6 @@
       "coordinate": "0924",
       "column": 9,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14002,7 +13418,6 @@
       "coordinate": "1024",
       "column": 10,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14019,7 +13434,6 @@
       "coordinate": "1124",
       "column": 11,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14036,7 +13450,6 @@
       "coordinate": "1224",
       "column": 12,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14059,7 +13472,6 @@
       "coordinate": "1324",
       "column": 13,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14082,7 +13494,6 @@
       "coordinate": "1424",
       "column": 14,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14105,7 +13516,6 @@
       "coordinate": "1524",
       "column": 15,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14134,7 +13544,6 @@
       "coordinate": "1624",
       "column": 16,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14157,7 +13566,6 @@
       "coordinate": "1724",
       "column": 17,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14180,7 +13588,6 @@
       "coordinate": "1824",
       "column": 18,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14203,7 +13610,6 @@
       "coordinate": "1924",
       "column": 19,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14226,7 +13632,6 @@
       "coordinate": "2024",
       "column": 20,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14249,7 +13654,6 @@
       "coordinate": "2124",
       "column": 21,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14272,7 +13676,6 @@
       "coordinate": "2224",
       "column": 22,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14295,7 +13698,6 @@
       "coordinate": "2324",
       "column": 23,
       "row": 24,
-      "fogged": false,
       "title": "Nearsight curse site",
       "description": "A cursed mountain site that ruins distance vision",
       "tiles": [
@@ -14318,7 +13720,6 @@
       "coordinate": "2424",
       "column": 24,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
@@ -14341,7 +13742,6 @@
       "coordinate": "2524",
       "column": 25,
       "row": 24,
-      "fogged": false,
       "title": "",
       "description": "",
       "tiles": [
