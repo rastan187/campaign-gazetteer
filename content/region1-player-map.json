@@ -5,7 +5,7 @@
   "flatTop": false,
   "topStaggered": false,
   "generatedFrom": "region1_82126.map",
-  "knownLocationCount": 22,
+  "knownLocationCount": 19,
   "cells": [
     {
       "index": 0,
@@ -2390,8 +2390,8 @@
       "coordinate": "0505",
       "column": 5,
       "row": 5,
-      "title": "TK Cult Temple",
-      "description": "HQ of the faction associated with the face in the mountain.",
+      "title": "",
+      "description": "",
       "tiles": [
         {
           "layer": "Base",
@@ -2402,12 +2402,6 @@
         {
           "layer": "1",
           "asset": "mountain8-d201120a62.png",
-          "rotation": 0,
-          "mirror": false
-        },
-        {
-          "layer": "Features",
-          "asset": "thicc-circle-icon-417eaf0235.png",
           "rotation": 0,
           "mirror": false
         }
@@ -13170,8 +13164,8 @@
       "coordinate": "2423",
       "column": 24,
       "row": 23,
-      "title": "Rune wreckage",
-      "description": "Mountain wreckage marked with magical script. Good fit for a failed Star Counter expedition, ritual-orbit accident, or Chasm-related debris.",
+      "title": "",
+      "description": "",
       "tiles": [
         {
           "layer": "Base",
@@ -13698,8 +13692,8 @@
       "coordinate": "2324",
       "column": 23,
       "row": 24,
-      "title": "Nearsight curse site",
-      "description": "A cursed mountain site that ruins distance vision",
+      "title": "",
+      "description": "",
       "tiles": [
         {
           "layer": "Base",
