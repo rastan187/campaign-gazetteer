@@ -9,15 +9,17 @@ the published dataset.
 
 ## Updating the map source
 
-Keep the complete GM map at
-`E:\books\RPG\Hex Kit\region1_82126.map`; never add that file to this public
-repository. To publish an update:
+Keep complete GM maps outside this public repository—for example in
+`E:\books\RPG\Hex Kit`. Never add a `.map` file to the repository. To publish
+an update:
 
-1. Open the map in Hex Kit and make the change.
+1. Open a map in Hex Kit and make the change.
 2. To reveal a feature, remove Hex Kit's Fog of War tile from that hex. Make
    sure its label contains the name players should see.
-3. Save the map, then double-click `Publish Map.cmd` in this folder.
-4. Leave the window open until it says the map was published. GitHub Pages
+3. Save the map, then double-click `Publish Map.cmd`. The launcher can stay in
+   this repository or beside your Hex Kit maps.
+4. Choose the `.map` file you just saved in the Windows file picker.
+5. Leave the window open until it says the map was published. GitHub Pages
    normally refreshes within about two minutes.
 
 The shortcut updates from GitHub first, rebuilds the player-safe map, performs

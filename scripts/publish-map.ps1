@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-  [string]$MapPath = "E:\books\RPG\Hex Kit\region1_82126.map",
+  [string]$MapPath,
   [string]$AssetRoot = "E:\books\RPG\Hex Kit\HPS Cartography Kit",
   [switch]$NoPush
 )
@@ -9,6 +9,26 @@ $ErrorActionPreference = "Stop"
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $mapOutput = "content/region1-player-map.json"
 $tileOutput = "public/map-tiles"
+
+function Select-HexKitMap {
+  Add-Type -AssemblyName System.Windows.Forms
+  $dialog = New-Object System.Windows.Forms.OpenFileDialog
+  $dialog.Title = "Choose the Hex Kit map to publish"
+  $dialog.Filter = "Hex Kit maps (*.map)|*.map|All files (*.*)|*.*"
+  $dialog.InitialDirectory = "E:\books\RPG\Hex Kit"
+  $dialog.CheckFileExists = $true
+  $dialog.Multiselect = $false
+
+  try {
+    if ($dialog.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
+      return $dialog.FileName
+    }
+    return $null
+  }
+  finally {
+    $dialog.Dispose()
+  }
+}
 
 function Invoke-Checked {
   param(
@@ -23,6 +43,14 @@ function Invoke-Checked {
 }
 
 try {
+  if ([string]::IsNullOrWhiteSpace($MapPath)) {
+    $MapPath = Select-HexKitMap
+    if ([string]::IsNullOrWhiteSpace($MapPath)) {
+      Write-Host "No map selected. Nothing was published."
+      exit 0
+    }
+  }
+
   if (-not (Test-Path -LiteralPath $MapPath -PathType Leaf)) {
     throw "Hex Kit map not found: $MapPath"
   }
@@ -35,7 +63,7 @@ try {
 
   Push-Location $repoRoot
   try {
-    Write-Host "Preparing the player map..." -ForegroundColor Cyan
+    Write-Host "Preparing: $([System.IO.Path]::GetFileName($MapPath))" -ForegroundColor Cyan
 
     if (-not $NoPush) {
       $branch = (& $git branch --show-current).Trim()
