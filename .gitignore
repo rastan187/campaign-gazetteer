@@ -43,6 +43,7 @@ next-env.d.ts
 
 # Keep the GM source map and temporary generated tiles out of the public repo.
 *.map
+*.player-overrides.json
 /public/.map-tiles-next/
 
 # local preview and generated source assets

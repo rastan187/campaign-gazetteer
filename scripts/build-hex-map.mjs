@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { copyFile, mkdir, readFile, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { loadPrivateMapOverrides } from "./map-publication-rules.mjs";
 
 const projectRoot = process.cwd();
 const hexKitRoot = "E:/books/RPG/Hex Kit";
@@ -13,6 +14,7 @@ const nextOutputTileRoot = path.join(projectRoot, "public", ".map-tiles-next");
 
 const rawMap = JSON.parse(await readFile(mapPath, "utf8"));
 const fowLayer = rawMap.layers.find((layer) => layer.label === "FOW");
+const { hideLayersWhileFogged } = await loadPrivateMapOverrides(mapPath);
 
 if (!fowLayer) {
   throw new Error("The source map does not contain an FOW layer.");
@@ -29,6 +31,7 @@ const foggedIndexes = new Set(
 );
 
 const copiedAssets = new Map();
+let privateLayerTilesOmitted = 0;
 
 function sourcePathFor(source) {
   if (source.startsWith("HPS Cartography Kit:/")) {
@@ -82,12 +85,17 @@ for (let index = 0; index < rawMap.width * rawMap.height; index += 1) {
   const column = (index % rawMap.width) + 1;
   const coordinate = `${String(column).padStart(2, "0")}${String(row).padStart(2, "0")}`;
   const fogged = foggedIndexes.has(index);
+  const privatelyHiddenLayers = hideLayersWhileFogged.get(coordinate);
   const info = rawMap.infoLayer[index];
   const tiles = [];
 
   for (const layer of rawMap.layers) {
     if (layer.label === "FOW") continue;
     if (fogged && layer.label === "Features") continue;
+    if (fogged && privatelyHiddenLayers?.has(layer.label)) {
+      if (layer.tiles[index]) privateLayerTilesOmitted += 1;
+      continue;
+    }
 
     const tile = layer.tiles[index];
     if (!tile) continue;
@@ -129,3 +137,6 @@ await writeFile(outputDataPath, `${JSON.stringify(playerMap, null, 2)}\n`);
 console.log(
   `Built ${playerMap.width}x${playerMap.height} player map with ${copiedAssets.size} tile assets; ${foggedIndexes.size} concealed features were omitted.`,
 );
+if (privateLayerTilesOmitted > 0) {
+  console.log(`Applied ${privateLayerTilesOmitted} private layer concealment overrides.`);
+}

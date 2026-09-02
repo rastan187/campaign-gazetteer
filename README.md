@@ -39,6 +39,11 @@ and notes are omitted rather than merely hidden with CSS. The tile folder is
 replaced on each update so removed or newly concealed icons cannot linger as
 stale public assets.
 
+Rare per-map concealment exceptions can live beside a source map in a private
+`<map-name>.player-overrides.json` sidecar. The publisher applies those rules
+only while the affected hex still has Fog of War, and the sidecar is excluded
+from Git so its coordinates never enter the public repository.
+
 ## Editing the writing
 
 All public-facing copy lives in one file:

@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
+import { loadPrivateMapOverrides } from "./map-publication-rules.mjs";
 
 const projectRoot = process.cwd();
 const defaultHexKitRoot = "E:/books/RPG/Hex Kit";
@@ -15,6 +16,7 @@ const [rawMapText, playerMapText] = await Promise.all([
 const rawMap = JSON.parse(rawMapText);
 const playerMap = JSON.parse(playerMapText);
 const fowLayer = rawMap.layers.find((layer) => layer.label === "FOW");
+const { hideLayersWhileFogged } = await loadPrivateMapOverrides(sourceMapPath);
 
 assert(fowLayer, "The source map does not contain an FOW layer.");
 assert.equal(playerMap.width, rawMap.width, "Player-map width differs from the source.");
@@ -49,6 +51,13 @@ for (const cell of playerMap.cells) {
       false,
       `Hex ${cell.coordinate} exposes a concealed feature icon.`,
     );
+    for (const hiddenLayer of hideLayersWhileFogged.get(cell.coordinate) ?? []) {
+      assert.equal(
+        cell.tiles.some((tile) => tile.layer === hiddenLayer),
+        false,
+        `Hex ${cell.coordinate} exposes private layer '${hiddenLayer}'.`,
+      );
+    }
   }
 
   for (const tile of cell.tiles) {

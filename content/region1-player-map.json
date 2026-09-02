@@ -11352,12 +11352,6 @@
           "asset": "hills-4-37b5b6d910.png",
           "rotation": 0,
           "mirror": false
-        },
-        {
-          "layer": "Roads",
-          "asset": "4-9550d034f9.png",
-          "rotation": 0,
-          "mirror": false
         }
       ]
     },
@@ -11949,12 +11943,6 @@
           "layer": "1",
           "asset": "hills-e74fde2f9a.png",
           "rotation": 0,
-          "mirror": false
-        },
-        {
-          "layer": "Roads",
-          "asset": "41-effbbb0711.png",
-          "rotation": -3,
           "mirror": false
         }
       ]
@@ -13204,6 +13192,12 @@
         {
           "layer": "1",
           "asset": "hills-6-23a6c41d4b.png",
+          "rotation": 0,
+          "mirror": false
+        },
+        {
+          "layer": "Roads",
+          "asset": "dirt-road-13-1a142a185b.png",
           "rotation": 0,
           "mirror": false
         }
