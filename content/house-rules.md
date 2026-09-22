@@ -8,6 +8,14 @@ A truly hopeless character does not have to enter play as a player character.
 
 Set the rejected character aside and roll a replacement. The rejected character remains part of the campaign world and may become a hireling, torchbearer, porter, camp follower, relative, debtor, hanger-on, or other poor bastard attached to the party.
 
+### Races
+
+You can play basically any race that I do not deem to be irredeemably wack. Any OSR/pre-3e version of a race should be workable. If it exists in Labyrinth Lord, we'll use that one. Don't worry about an established homeland or a fully explained place in the setting, just write "dwarf" or whatever on your sheet and it's fine.
+
+Elves are the main exception. The elves of Namarath are strange, isolated, and bound to powers outside the ordinary mortal world. They are not currently available as player characters. A player elf will instead have been born among mortals, descended from elves who remained in the mortal world or something like that, otherwise separated from Namarath and its society.
+
+White Apes also exist in the setting, including at least one with established ties to player characters.
+
 ### Ability Score Increases
 
 Every time you gain a level, choose an ability score to try to improve. Roll a d20; if the result is higher than the current score, increase that ability by 1.
