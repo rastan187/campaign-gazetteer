@@ -35,8 +35,7 @@
 .edition,
 .eyebrow,
 .tocTitle,
-.footer,
-.primer figcaption {
+.footer {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   letter-spacing: .11em;
@@ -60,8 +59,7 @@
 
 .edition,
 .tocTitle,
-.footer,
-.primer figcaption {
+.footer {
   color: var(--muted);
 }
 
@@ -207,14 +205,6 @@
   display: block;
   width: 100%;
   height: auto;
-}
-
-.primer figcaption {
-  padding: 10px 13px 11px;
-  border-top: 1px solid rgb(36 33 28 / 22%);
-  background: rgb(238 231 213 / 95%);
-  font-size: 9px;
-  line-height: 1.4;
 }
 
 .worldImage {

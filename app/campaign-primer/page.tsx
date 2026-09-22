@@ -32,27 +32,12 @@ const sections = [
   ["the-chasm-of-man", "The Chasm of Man"],
 ] as const;
 
-const imageDetails: Record<string, { caption: string; className: string }> = {
-  "/images/campaign-primer/the-world.jpg": {
-    caption: "The planet below is always part of the sky.",
-    className: styles.worldImage,
-  },
-  "/images/campaign-primer/the-starting-region-3.jpg": {
-    caption: "Visions of Xiiom",
-    className: styles.regionWide,
-  },
-  "/images/campaign-primer/the-starting-region-2.jpg": {
-    caption: "The city beyond the trees",
-    className: styles.regionPortrait,
-  },
-  "/images/campaign-primer/the-starting-region-1.jpg": {
-    caption: "Lakebound approaches",
-    className: styles.regionPortrait,
-  },
-  "/images/campaign-primer/the-chasm-of-man.png": {
-    caption: "The Chasm of Man and its expedition camp",
-    className: styles.chasmMap,
-  },
+const imageClasses: Record<string, string> = {
+  "/images/campaign-primer/the-world.jpg": styles.worldImage,
+  "/images/campaign-primer/the-starting-region-3.jpg": styles.regionWide,
+  "/images/campaign-primer/the-starting-region-2.jpg": styles.regionPortrait,
+  "/images/campaign-primer/the-starting-region-1.jpg": styles.regionPortrait,
+  "/images/campaign-primer/the-chasm-of-man.png": styles.chasmMap,
 };
 
 function textOf(node: ReactNode): string {
@@ -135,11 +120,9 @@ export default function CampaignPrimerPage() {
               },
               img: ({ src, alt }) => {
                 const path = typeof src === "string" ? src : "";
-                const details = imageDetails[path];
                 return (
-                  <figure className={details?.className ?? styles.image}>
+                  <figure className={imageClasses[path] ?? styles.image}>
                     <img src={`${assetBase}${path}`} alt={alt ?? ""} loading="lazy" />
-                    {details?.caption ? <figcaption>{details.caption}</figcaption> : null}
                   </figure>
                 );
               },
