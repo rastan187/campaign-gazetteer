@@ -35,6 +35,7 @@ test("server-renders the campaign atlas", async () => {
   assert.match(html, /Great Namarath, the Sidonic Court/);
   assert.match(html, /Endulia/);
   assert.match(html, /The Serevan Remnant/);
+  assert.match(html, /Campaign Primer/);
   assert.equal(html.match(/data-pin-do="embedBoard"/g)?.length, 5);
   assert.match(html, /https:\/\/www\.pinterest\.com\/miguelalopez\/xiiom\//);
   assert.match(html, /https:\/\/www\.pinterest\.com\/miguelalopez\/serevan-remnant\//);
@@ -53,7 +54,14 @@ test("keeps campaign copy separate from the page template", async () => {
 
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
   await access(new URL("../content/site.ts", import.meta.url));
+  await access(new URL("../content/campaign-primer.md", import.meta.url));
   await access(new URL("../public/og-spartan.png", import.meta.url));
+  await access(
+    new URL("../public/images/campaign-primer/the-world.jpg", import.meta.url),
+  );
+  await access(
+    new URL("../public/images/campaign-primer/the-chasm-of-man.png", import.meta.url),
+  );
 });
 
 test("publishes a complete map without leaking concealed discoveries", async () => {
