@@ -37,7 +37,7 @@ const imageClasses: Record<string, string> = {
   "/images/campaign-primer/the-starting-region-3.jpg": styles.regionWide,
   "/images/campaign-primer/the-starting-region-2.jpg": styles.regionPortrait,
   "/images/campaign-primer/the-starting-region-1.jpg": styles.regionPortrait,
-  "/images/campaign-primer/the-chasm-of-man.png": styles.chasmMap,
+  "/images/campaign-primer/chasm-of-man-surroundings-pointcrawl.png": styles.chasmMap,
 };
 
 function textOf(node: ReactNode): string {

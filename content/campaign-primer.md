@@ -28,4 +28,4 @@ Last winter, a great earthquake tore through the Tzacol Mountains south of Xiiom
 
 The discovery is not yet common knowledge, but word is spreading among those with the right connections. Those same patrons remain eager to support further expeditions, and a thriving base camp has grown up near Mount Uxal. A detachment of guardsmen from the city, accompanied by scholars from the College of Star Counters, numerous laborers, merchants, and peddlers, as well as an assortment of undesirables aspiring to become porters or torchbearers, have all gathered there.
 
-![A field map of the Chasm of Man, its expedition camp, and the surrounding trails and landmarks.](/images/campaign-primer/the-chasm-of-man.png)
+![A field map of the Chasm of Man, its expedition camp, and the surrounding trails and landmarks.](/images/campaign-primer/chasm-of-man-surroundings-pointcrawl.png)

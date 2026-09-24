@@ -60,7 +60,10 @@ test("keeps campaign copy separate from the page template", async () => {
     new URL("../public/images/campaign-primer/the-world.jpg", import.meta.url),
   );
   await access(
-    new URL("../public/images/campaign-primer/the-chasm-of-man.png", import.meta.url),
+    new URL(
+      "../public/images/campaign-primer/chasm-of-man-surroundings-pointcrawl.png",
+      import.meta.url,
+    ),
   );
 });
 
