@@ -146,10 +146,6 @@ Weather, river crossings, forced travel, and unusual conditions modify MP at the
 
 ### Drowning
 
-### Drowning
-
-### Drowning
-
 Characters can hold their breath underwater for a number of 10-second rounds equal to their Constitution score. This assumes a deep breath before submerging and no strenuous activity. Normal swimming, diving, surfacing, searching, and similar moderate activity are allowed.
 
 Characters who could not fill their lungs before going under halve this allowance, rounded up. Combat, grappling, hard swimming, or similar strenuous activity halves it again, rounded up. Characters can always hold their breath for at least one round.
