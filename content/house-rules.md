@@ -146,15 +146,19 @@ Weather, river crossings, forced travel, and unusual conditions modify MP at the
 
 ### Drowning
 
-The base amount of time a character can hold their breath underwater is a number of rounds equal to **one-third of Constitution, rounded up**. This assumes the character can take a deep breath before submerging and does not perform strenuous activity underwater. Normal swimming, diving, surfacing, searching, opening a chest, or otherwise moderate activity is allowed.
+### Drowning
 
-If the character could not fill their lungs before going under, halve this time, rounded up. If the character engages in strenuous activity such as combat, halve it again. These penalties are cumulative. A character can always hold their breath for at least one round.
+### Drowning
 
-After this limit expires, the character must make a **Constitution test each round** to remain conscious.
+Characters can hold their breath underwater for a number of 10-second rounds equal to their Constitution score. This assumes a deep breath before submerging and no strenuous activity. Normal swimming, diving, surfacing, searching, and similar moderate activity are allowed.
 
-On a failed test, the character falls unconscious and cannot move under their own power. If the character is not brought to breathable air before the end of the following round, they drown and die.
+Characters who could not fill their lungs before going under halve this allowance, rounded up. Combat, grappling, hard swimming, or similar strenuous activity halves it again, rounded up. Characters can always hold their breath for at least one round.
 
-*Adapted from the Wilderness Survival Guide.*
+After this allowance expires, characters must make a **Constitution test at the end of each subsequent round** without air. On the first failed test, they begin drowning and immediately lose **1d6 HP**. They continue losing **1d6 HP at the end of every subsequent round**. They remain conscious and able to act while above 0 HP.
+
+At **0 HP or below**, characters fall unconscious and cannot move under their own power. They continue taking **1d6 damage per round**, dying at **−10 HP or below**.
+
+Reaching breathable air stops drowning damage while conscious. An unconscious victim must also receive **one uninterrupted round of resuscitation** from another character. Completing this aid stops further damage for characters at -3 HP or above. Remaining HP loss must be restored normally.
 
 ## Class Rules
 
