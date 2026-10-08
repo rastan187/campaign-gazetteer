@@ -44,6 +44,7 @@ After the shield splinters, remove it from the character sheet. The character lo
 
 ## Downtime
 
+
 The activities below are **not an exhaustive list**. Characters are encouraged to pursue their own projects, schemes, and ambitions during downtime. Describe what you want to accomplish, and the referee will determine what's required.
 
 | Activity | Time | Cost and benefit |
@@ -52,8 +53,8 @@ The activities below are **not an exhaustive list**. Characters are encouraged t
 | [Adornment](#adornment) | 1 or more days | Spend up to 50 gp/day for 1 XP per 2 gp, up to 100 XP. |
 | [Gather Rumors](#gather-rumors) | 1 day | Spend 1d4 × 10 gp, potentially more, to seek local rumors. |
 | [Relaxation](#relaxation) | 1 week | At full HP, gain +1 temporary HP per HD for the next adventure. |
-| [Boasting](#boasting) | 1 week, whole party | Gain +5% XP from the previous adventure, or +10% with a bard. |
-| [Preparing and Scouting](#preparing-and-scouting) | 7 days | Gain +1 to all saving throws during the chosen expedition. |
+| [Boasting](#boasting) | 1 week | Gain +5% XP from the previous adventure, or +10% with a bard. |
+| [Preparing and Scouting](#preparing-and-scouting) | 1 week | Gain +1 to all saving throws during the chosen expedition. |
 | [Weapon Mastery Retraining](#weapon-mastery-retraining) | 1 week | Replace one mastery; first retraining free, then 200 gp per level. |
 
 ### Carousing
