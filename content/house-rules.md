@@ -44,6 +44,8 @@ After the shield splinters, remove it from the character sheet. The character lo
 
 ## Downtime
 
+The activities below are **not an exhaustive list**. Characters are encouraged to pursue their own projects, schemes, and ambitions during downtime. Describe what you want to accomplish, and the referee will determine what's required.
+
 ### Carousing
 
 Carousing takes a **whole night**. The character gains **XP equal to the amount spent**.
