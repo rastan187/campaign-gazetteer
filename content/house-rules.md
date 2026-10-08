@@ -46,6 +46,16 @@ After the shield splinters, remove it from the character sheet. The character lo
 
 The activities below are **not an exhaustive list**. Characters are encouraged to pursue their own projects, schemes, and ambitions during downtime. Describe what you want to accomplish, and the referee will determine what's required.
 
+| Activity | Time | Cost and benefit |
+| --- | --- | --- |
+| [Carousing](#carousing) | Whole night | Cost varies by settlement; gain XP equal to gp spent, with a chance of a mishap. |
+| [Adornment](#adornment) | 1 or more days | Spend up to 50 gp/day for 1 XP per 2 gp, up to 100 XP. |
+| [Gather Rumors](#gather-rumors) | 1 day | Spend 1d4 × 10 gp, potentially more, to seek local rumors. |
+| [Relaxation](#relaxation) | 1 week | At full HP, gain +1 temporary HP per HD for the next adventure. |
+| [Boasting](#boasting) | 1 week, whole party | Gain +5% XP from the previous adventure, or +10% with a bard. |
+| [Preparing and Scouting](#preparing-and-scouting) | 7 days | Gain +1 to all saving throws during the chosen expedition. |
+| [Weapon Mastery Retraining](#weapon-mastery-retraining) | 1 week | Replace one mastery; first retraining free, then 200 gp per level. |
+
 ### Carousing
 
 Carousing takes a **whole night**. The character gains **XP equal to the amount spent**.
@@ -80,6 +90,44 @@ The next morning, make a **Test of Constitution**. On a failure, roll d20 on the
 | 18 | A faction hates you. |
 | 19 | All belongings stolen. |
 | 20 | Meet a new companion who wants to join the party. |
+
+### Adornment
+
+Spend up to **50 gp per day** on fine clothing, jewelry, and other finery, gaining **1 XP per 2 gp spent**, to a maximum of **100 XP**. This activity cannot be repeated until after another adventure.
+
+### Gather Rumors
+
+Spend **1 day and 1d4 × 10 gp** seeking rumors. Roll **2d6**, modified by the character's reaction/loyalty adjustment.
+
+| Result | Outcome |
+| --- | --- |
+| 2 or less | No rumor; lose another 1d6 × 10 gp pursuing a false lead. |
+| 3–5 | Pay another 1d4 × 10 gp for one rumor. |
+| 6–8 | Hear one rumor. |
+| 9–11 | Hear one rumor; pay another 2d10 gp for a second. |
+| 12+ | Hear two rumors. |
+
+Rumors generally concern the character's **current location and surrounding region**. Available rumors are finite; repeated inquiries may eventually **exhaust the local rumor pool** until new developments occur.
+
+### Relaxation
+
+At full HP, spend **1 week relaxing** to gain **+1 temporary HP per HD** for the next adventure.
+
+### Boasting
+
+The entire adventuring party spends **1 week** celebrating and spreading tales of its latest exploits. All participants gain **+5% XP from the previous adventure**, increased to **+10% for the entire party if a bard participates**. No other downtime activities may be undertaken during this week.
+
+### Preparing and Scouting
+
+Spend **7 days** scouting, researching, training, or otherwise preparing for a specific expedition. Gain **+1 to all saving throws** for the duration of that adventure.
+
+### Weapon Mastery Retraining
+
+Classes with weapon mastery may spend **1 week and 200 gp per character level** to replace one existing weapon mastery with another.
+
+- **Once per level.** Unused retraining opportunities do not accumulate.
+- **First retraining is free** (no gp cost, but still requires one week).
+- **Grand mastery** counts as one mastery and follows the same costs and restrictions. Normal grand mastery prerequisites and limitations still apply.
 
 ## Inventory & Encumbrance
 
