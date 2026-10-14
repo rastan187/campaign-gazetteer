@@ -4,7 +4,7 @@
   "height": 24,
   "flatTop": false,
   "topStaggered": false,
-  "generatedFrom": "region1_82126.map",
+  "generatedFrom": "region1_101526.map",
   "knownLocationCount": 19,
   "cells": [
     {
@@ -4928,7 +4928,7 @@
       "coordinate": "1309",
       "column": 13,
       "row": 9,
-      "title": "TK Fort",
+      "title": "Black Banner",
       "description": "",
       "tiles": [
         {
@@ -6116,7 +6116,7 @@
       "coordinate": "1711",
       "column": 17,
       "row": 11,
-      "title": "TK Michi no Eki",
+      "title": "Ashiura-juku (葦浦宿)",
       "description": "",
       "tiles": [
         {
@@ -7086,7 +7086,7 @@
       "coordinate": "1013",
       "column": 10,
       "row": 13,
-      "title": "TK Fort",
+      "title": "Stone-Spur",
       "description": "",
       "tiles": [
         {
@@ -8298,7 +8298,7 @@
       "coordinate": "1415",
       "column": 14,
       "row": 15,
-      "title": "TK Michi no Eki",
+      "title": "Kawagiri-juku (川霧宿)",
       "description": "",
       "tiles": [
         {
@@ -11352,6 +11352,12 @@
           "asset": "hills-4-37b5b6d910.png",
           "rotation": 0,
           "mirror": false
+        },
+        {
+          "layer": "Roads",
+          "asset": "4-9550d034f9.png",
+          "rotation": 0,
+          "mirror": false
         }
       ]
     },
@@ -11943,6 +11949,12 @@
           "layer": "1",
           "asset": "hills-e74fde2f9a.png",
           "rotation": 0,
+          "mirror": false
+        },
+        {
+          "layer": "Roads",
+          "asset": "41-effbbb0711.png",
+          "rotation": -3,
           "mirror": false
         }
       ]
