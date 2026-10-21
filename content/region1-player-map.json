@@ -5,7 +5,7 @@
   "flatTop": false,
   "topStaggered": false,
   "generatedFrom": "region1_101526.map",
-  "knownLocationCount": 19,
+  "knownLocationCount": 20,
   "cells": [
     {
       "index": 0,
@@ -11930,7 +11930,7 @@
       "coordinate": "1921",
       "column": 19,
       "row": 21,
-      "title": "",
+      "title": "Stone Head Trail Location",
       "description": "",
       "tiles": [
         {
@@ -11942,6 +11942,18 @@
         {
           "layer": "1",
           "asset": "hills-e74fde2f9a.png",
+          "rotation": 0,
+          "mirror": false
+        },
+        {
+          "layer": "Roads",
+          "asset": "41-effbbb0711.png",
+          "rotation": -3,
+          "mirror": false
+        },
+        {
+          "layer": "Features",
+          "asset": "triangle-dot-icon-e2c1e8f0ca.png",
           "rotation": 0,
           "mirror": false
         }
