@@ -5,7 +5,7 @@
   "flatTop": false,
   "topStaggered": false,
   "generatedFrom": "region1_101526.map",
-  "knownLocationCount": 20,
+  "knownLocationCount": 21,
   "cells": [
     {
       "index": 0,
@@ -11964,7 +11964,7 @@
       "coordinate": "2021",
       "column": 20,
       "row": 21,
-      "title": "",
+      "title": "Tenochatl's Camp",
       "description": "",
       "tiles": [
         {
@@ -11976,6 +11976,12 @@
         {
           "layer": "1",
           "asset": "badlands1-34e6114a05.png",
+          "rotation": 0,
+          "mirror": false
+        },
+        {
+          "layer": "Features",
+          "asset": "heart-icon-e0b2a2dbe7.png",
           "rotation": 0,
           "mirror": false
         }
