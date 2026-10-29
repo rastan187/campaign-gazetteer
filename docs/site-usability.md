@@ -5,7 +5,7 @@ Existing routes (`/`, `/campaign-primer/`, `/map/`, `/house-rules/`, and `/chara
 ## Player-facing changes
 
 - Shared navigation, mobile menu, skip link, footer, and modal search on the four reference pages.
-- Home entry points for newcomers and play, plus a realm index separate from site navigation.
+- A realm index separate from site navigation. The requested revision removes the Start Here / Ready to Play boxes, decorative eyebrow headings, brand strapline, primer summary box, and promotional transition copy. Reference pages use plain titles and functional labels. The prototype's decorative roster label is removed while character level/class remain as ordinary data text.
 - Characters links open the existing shared Google Sheets ledger in a separate tab. The owner explicitly approved publishing this link. Its existing Google permissions continue to govern access. No spreadsheet values, formulas, sharing settings, or character records were edited.
 - Search uses only public Markdown, realm copy, and the already-sanitized player map. Neither the spreadsheet nor prototype records enter the index.
 - Reference contents include subsections, indicate the current topic, remain reachable on narrow screens, and close after selecting a topic. Heading links can be copied. Existing IDs are pinned in `content/section-ids.json`.
@@ -16,7 +16,7 @@ Existing routes (`/`, `/campaign-primer/`, `/map/`, `/house-rules/`, and `/chara
 
 ## Character prototype scope
 
-The `/characters/` app is a separate older prototype, not the shared Google Sheets ledger used by players. Its layout, storage key, storage schema, save/load code, and other calculations are retained. Only these changes were made:
+The `/characters/` app is a separate older prototype, not the shared Google Sheets ledger used by players. Its storage key, storage schema, save/load code, and other calculations are retained. Apart from the subsequently requested removal of decorative headings, only these changes were made:
 
 1. HP may go below zero; the existing maximum-HP ceiling remains.
 2. Undo restores the last 20 item deletions during the current page visit. It restores the deleted subtree to its original owner/container and position without restoring an entire earlier character snapshot. Later HP, notes, items, and other owners' records are retained. Occupied equipment slots cause restoration into the pack; duplicate IDs, full containers, and missing original containers stop restoration with an explanation instead of overwriting data. Resetting prototype test data clears this visit's deletion history.
@@ -29,9 +29,9 @@ The `/characters/` app is a separate older prototype, not the shared Google Shee
 - Extend `publicSearchEntries()` with published content types only. Private source maps, concealment sidecars, and character records must never be inputs.
 - Add future session reports, NPCs, factions, and locations under a few durable navigation groups when there is enough actual content. No empty sections or invented campaign updates were added.
 
-## Editorial decision still needed
+## Boasting duration
 
-The Boasting summary table says **3 days**; the detailed rule says **1 week**. Both are left as supplied until the referee chooses the authoritative duration. No rules were silently rewritten.
+The referee confirmed **3 days**. The summary table and detailed rule now agree, including the restriction on other downtime activities during those three days.
 
 ## Validation and preview
 

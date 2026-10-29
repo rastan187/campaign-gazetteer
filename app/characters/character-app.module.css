@@ -106,13 +106,11 @@
   border-right: 1px solid rgb(238 228 203 / 12%);
 }
 
-.eyebrow {
+.characterSummary {
   margin: 0 0 14px;
   color: var(--moss-bright);
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .characterList {
@@ -853,7 +851,6 @@
     border-bottom: 1px solid rgb(238 228 203 / 12%);
   }
 
-  .roster .eyebrow,
   .rosterFoot {
     display: none;
   }

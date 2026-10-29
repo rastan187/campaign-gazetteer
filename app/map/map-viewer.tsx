@@ -280,7 +280,6 @@ export function MapViewer({ map }: { map: PlayerMap }) {
     <main id="main-content" tabIndex={-1} className={styles.mapPage}>
       <header className={styles.mapHeader}>
         <div>
-          <p className={styles.eyebrow}>Player map</p>
           <h1>{map.name}</h1>
         </div>
         <div className={styles.headerActions}>
@@ -412,7 +411,6 @@ export function MapViewer({ map }: { map: PlayerMap }) {
             </>
           ) : (
             <>
-              <p className={styles.detailCoordinate}>Field notes</p>
               <h2>Select a hex</h2>
               <p>Tap a hex to read what the party knows about it.</p>
             </>

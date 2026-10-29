@@ -375,12 +375,6 @@ footer p {
 .gazetteer .site-introduction { padding: clamp(42px, 6vw, 76px) 0 34px; }
 .gazetteer .site-introduction h1 { font-size: clamp(48px, 7vw, 94px); }
 .gazetteer .introduction { margin-top: 20px; }
-.launch-label { color: var(--muted); font: 700 11px/1.4 Arial, sans-serif; letter-spacing: .11em; text-transform: uppercase; }
-.campaign-launch { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; padding: 26px 0 38px; }
-.campaign-launch > div { padding: 24px; border: 1px solid var(--rule); background: rgb(255 255 255 / 17%); }
-.campaign-launch h2 { font-size: 32px; line-height: 1.1; letter-spacing: -.025em; }
-.campaign-launch p:not(.launch-label) { max-width: 460px; font-size: 17px; }
-.campaign-launch a { display: block; width: fit-content; padding: 8px 0; font: 600 14px/1.4 Arial, sans-serif; }
 .realm-index { padding: 0 0 40px; }
 .realm-index nav { display: grid; grid-template-columns: repeat(auto-fit, minmax(185px, 1fr)); gap: 14px; }
 .realm-index a { display: block; padding: 16px 12px; border-top: 2px solid var(--rule); text-decoration: none; }
@@ -403,11 +397,11 @@ footer p {
 .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .not-found { padding: 70px 0 120px; }
 .not-found h1 { font-size: clamp(48px, 8vw, 90px); }
-@media (max-width: 640px) { .campaign-launch { grid-template-columns: 1fr; gap: 16px; } .campaign-launch > div { padding: 20px; } .primer-intro { width: calc(100% - 32px); padding-top: 36px; } }
+@media (max-width: 640px) { .primer-intro { width: calc(100% - 32px); padding-top: 36px; } }
 @media print {
   html { scroll-behavior: auto; }
   body { background: white; color: black; font-size: 11pt; }
-  .campaign-footer, .heading-permalink, .moodboard-section, .campaign-launch, .realm-index { display: none !important; }
+  .campaign-footer, .heading-permalink, .moodboard-section, .realm-index { display: none !important; }
   main { width: 100% !important; }
   h2, h3, h4 { break-after: avoid; }
   figure, blockquote, tr { break-inside: avoid; }

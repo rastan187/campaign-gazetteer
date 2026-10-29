@@ -669,7 +669,6 @@ export function CharacterApp() {
 
       <div className={styles.workspace}>
         <aside className={styles.roster} aria-label="Character roster">
-          <p className={styles.eyebrow}>The company</p>
           <div className={styles.characterList}>
             {state.characters.map((entry) => (
               <button
@@ -701,7 +700,7 @@ export function CharacterApp() {
         <main className={styles.main}>
           <section className={styles.hero}>
             <div>
-              <p className={styles.eyebrow}>
+              <p className={styles.characterSummary}>
                 Level {character.level} {character.className}
               </p>
               <h1>{character.name}</h1>

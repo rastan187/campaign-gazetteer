@@ -1,5 +1,5 @@
 .contents { position: sticky; top: 100px; align-self: start; max-height: calc(100svh - 125px); overflow-y: auto; border-top: 3px solid var(--ink); padding: 15px 4px 16px 0; }
-.contents p { margin: 0 0 14px; font: 700 11px/1.4 Arial, sans-serif; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.contents p { margin: 0 0 14px; font: 600 14px/1.4 Arial, sans-serif; color: var(--muted); }
 .contents nav, .mobileContents nav { display: grid; gap: 2px; }
 .contents a, .mobileContents a { display: block; padding: 9px 6px; color: var(--ink); text-decoration: none; font: 600 12px/1.4 Arial, sans-serif; border-left: 2px solid transparent; }
 .contents a.subsection, .mobileContents a.subsection { padding-left: 17px; font-size: 12px; font-weight: 400; color: var(--muted); }
@@ -8,9 +8,6 @@
 .mobileContents { display: none; }
 .related { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; padding: 22px 0; margin: 36px 0 0; border-top: 1px solid var(--rule); font: 14px/1.5 Arial, sans-serif; }
 .related strong { flex-basis: 100%; font: 24px/1.2 Georgia, serif; }
-.briefing { margin: 0 0 36px; padding: 22px; border: 1px solid var(--rule); background: rgb(255 255 255 / 22%); }
-.briefing h2 { padding: 0; border: 0; font: 25px/1.15 Georgia, serif; letter-spacing: -.02em; }
-.briefing p { margin: 12px 0 0; font-size: 17px; }
 @media (max-width: 840px) {
   .contents { display: none; }
   .mobileContents { display: block; position: sticky; top: 68px; z-index: 40; margin: 0; background: var(--paper); border: 1px solid var(--rule); grid-row: 1; }

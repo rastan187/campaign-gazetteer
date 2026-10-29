@@ -115,7 +115,7 @@ At full HP, spend **1 week relaxing** to gain **+1 temporary HP per HD** for the
 
 ### Boasting
 
-The entire adventuring party spends **1 week** celebrating and spreading tales of its latest exploits. All participants gain **+5% XP from the previous adventure**, increased to **+10% for the entire party if a bard participates**. No other downtime activities may be undertaken during this week. There may be consequences for excessive boasting.
+The entire adventuring party spends **3 days** celebrating and spreading tales of its latest exploits. All participants gain **+5% XP from the previous adventure**, increased to **+10% for the entire party if a bard participates**. No other downtime activities may be undertaken during these three days. There may be consequences for excessive boasting.
 
 ### Preparing and Scouting
 

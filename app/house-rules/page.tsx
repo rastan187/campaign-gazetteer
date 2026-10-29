@@ -21,7 +21,7 @@ export default function HouseRulesPage() {
   const { markdown, headings } = readReference("house-rules");
   return <><SiteHeader current="/house-rules/" />
     <main id="main-content" tabIndex={-1} className={styles.page}>
-      <section className={styles.hero}><p className="launch-label">Table reference · Hyperborea 3e</p><h1>Campaign House Rules</h1><p className="page-deck">Jump to a topic, or use Search to find an individual rule.</p></section>
+      <section className={styles.hero}><h1>Campaign House Rules</h1><p className="page-deck">Jump to a topic, or use Search to find an individual rule.</p></section>
       <div className={styles.layout}>
         <Contents headings={headings} />
         <article className={styles.rules}>
@@ -31,7 +31,7 @@ export default function HouseRulesPage() {
             h4: ({ children }) => <ReferenceHeading level={4}>{children}</ReferenceHeading>,
             table: ({ children }) => <div className={styles.tableWrap} role="region" aria-label="Rule reference table" tabIndex={0}><table>{children}</table></div>,
           }}>{markdown}</ReactMarkdown>
-          <div className={shared.related}><strong>Keep playing</strong><Link href="/map/">Explore Region I →</Link><a href={characterLedger} target="_blank" rel="noreferrer">Shared Character Ledger ↗</a><Link href="/campaign-primer/">Read the campaign briefing →</Link></div>
+          <nav className={shared.related} aria-label="Related pages"><strong>Related pages</strong><Link href="/map/">Region I Map</Link><a href={characterLedger} target="_blank" rel="noreferrer">Shared Character Ledger ↗</a><Link href="/campaign-primer/">Campaign Primer</Link></nav>
         </article>
       </div>
     </main><SiteFooter /></>;

@@ -29,7 +29,7 @@ export function SiteNavigation({ current, dark, entries }: { current: string; da
     <header className={`${styles.header} ${dark ? styles.dark : ""}`}>
       <a className={styles.skip} href="#main-content">Skip to content</a>
       <div className={styles.inner}>
-        <Link className={styles.brand} href="/">Campaign Gazetteer<span>A field guide to our campaign</span></Link>
+        <Link className={styles.brand} href="/">Campaign Gazetteer</Link>
         <nav className={styles.desktop} aria-label="Main navigation">{links()}</nav>
         <button className={styles.searchButton} type="button" onClick={() => dialog.current?.showModal()}>Search<span aria-hidden="true"> ↗</span></button>
         <details ref={menu} className={styles.menu} onKeyDown={(event) => {

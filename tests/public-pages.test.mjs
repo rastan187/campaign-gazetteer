@@ -45,7 +45,9 @@ test("realm anchors and Pinterest fallback links survive; embeds load on demand"
 
 test("Characters opens the approved shared Google Sheets ledger, without changing the prototype route", async () => {
   const html = await read("out/index.html");
-  assert.match(html, /href="https:\/\/docs\.google\.com\/spreadsheets\/d\/1QWx9Q0bw0CI3B1yt-mPkOCjboYCdxUqwLnUt4sA06oI\/edit"[^>]+target="_blank"/);
+  const ledgerLinks = [...html.matchAll(/<a\b[^>]*>/g)].map((match) => match[0]).filter((tag) => tag.includes('href="https://docs.google.com/spreadsheets/d/1QWx9Q0bw0CI3B1yt-mPkOCjboYCdxUqwLnUt4sA06oI/edit"'));
+  assert.ok(ledgerLinks.length > 0);
+  ledgerLinks.forEach((tag) => assert.match(tag, /target="_blank"/));
   assert.match(await read("out/characters/index.html"), /Character Ledger/);
 });
 

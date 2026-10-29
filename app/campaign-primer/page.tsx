@@ -28,18 +28,17 @@ export default function CampaignPrimerPage() {
   const { markdown, headings } = readReference("campaign-primer");
   return <><SiteHeader current="/campaign-primer/" />
     <main id="main-content" tabIndex={-1} className={styles.page}>
-      <header className="primer-intro"><p className="launch-label">Before the first expedition</p><h1>Campaign Primer</h1><p className="page-deck">What every adventurer should know about the world, Xiiom, and the place waiting beneath Mount Uxal.</p></header>
+      <header className="primer-intro"><h1>Campaign Primer</h1></header>
       <div className={styles.layout}>
         <Contents headings={headings} />
         <article className={styles.primer}>
-          <div className={shared.briefing}><h2>Before you set out</h2><p>The campaign begins in the domain of Xiiom. The Chasm of Man is its central megadungeon, with an expedition camp near Mount Uxal.</p><p><Link href="/house-rules/#character-creation-and-advancement">Review character creation</Link> · <Link href="/map/">Open the regional map</Link> · <Link href="/#xiiom">Explore Xiiom’s gazetteer entry</Link></p></div>
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={{
             h1: () => null,
             h2: ({ children }) => <ReferenceHeading level={2}>{children}</ReferenceHeading>,
             p: ({ node, children }) => { const child = node?.children.length === 1 ? node.children[0] : null; return child?.type === "element" && child.tagName === "img" ? <>{children}</> : <p>{children}</p>; },
             img: ({ src, alt }) => { const path = typeof src === "string" ? src : ""; return <figure className={imageClasses[path] ?? styles.image}><a href={`${assetBase}${path}`} target="_blank" rel="noreferrer" aria-label={`Enlarge image: ${alt ?? "Campaign illustration"}`}><img src={`${assetBase}${path}`} alt={alt ?? ""} loading="lazy" /></a><figcaption>Open image at full size ↗</figcaption></figure>; },
           }}>{markdown}</ReactMarkdown>
-          <div className={shared.related}><strong>Your next step</strong><Link href="/house-rules/#character-creation-and-advancement">Character creation →</Link><Link href="/map/">Explore Region I →</Link><Link href="/">Browse the five realms →</Link></div>
+          <nav className={shared.related} aria-label="Related pages"><strong>Related pages</strong><Link href="/house-rules/#character-creation-and-advancement">Character creation</Link><Link href="/map/">Region I Map</Link><Link href="/">Campaign Gazetteer</Link><Link href="/#xiiom">Xiiom</Link></nav>
         </article>
       </div>
     </main><SiteFooter /></>;

@@ -3,7 +3,6 @@ import Link from "next/link";
 import { SiteHeader } from "./components/site-header";
 import { SiteFooter } from "./components/site-footer";
 import { Moodboard } from "./components/moodboard";
-import { characterLedger } from "../content/navigation";
 
 export default function Home() {
   return (
@@ -15,12 +14,7 @@ export default function Home() {
         <p className="introduction">{site.introduction}</p>
       </section>
 
-      <section className="campaign-launch" aria-label="Campaign resources">
-        <div><p className="launch-label">Before the first expedition</p><h2>Start here</h2><p>Get your bearings in the world, then review the rules for making a character.</p><Link href="/campaign-primer/">Read the Campaign Primer →</Link><Link href="/house-rules/#character-creation-and-advancement">Character creation rules →</Link></div>
-        <div><p className="launch-label">At the table</p><h2>Ready to play</h2><p>The resources you need during an expedition.</p><Link href="/map/">Region I Map →</Link><Link href="/house-rules/">House Rules →</Link><a href={characterLedger} target="_blank" rel="noreferrer">Shared Character Ledger ↗</a></div>
-      </section>
-
-      <section className="realm-index" aria-label="Realm index"><p className="launch-label">Explore the five realms</p><nav aria-label="Realms on this page">{nations.map((nation) => <a key={nation.id} href={`#${nation.id}`}><strong>{nation.name}</strong><span>{nation.siteName}</span></a>)}</nav></section>
+      <section className="realm-index" aria-label="Realm index"><nav aria-label="Realms on this page">{nations.map((nation) => <a key={nation.id} href={`#${nation.id}`}><strong>{nation.name}</strong><span>{nation.siteName}</span></a>)}</nav></section>
 
       {nations.map((nation) => (
         <article id={nation.id} key={nation.id}>
