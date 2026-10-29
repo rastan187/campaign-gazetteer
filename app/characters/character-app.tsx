@@ -12,6 +12,7 @@ import {
   prototypeState,
 } from "./data";
 import styles from "./character-app.module.css";
+import { deleteWithUndo, restoreDeletedItem, type DeletedItem } from "./inventory-undo";
 
 type View = "inventory" | "record" | "party";
 
@@ -468,6 +469,8 @@ export function CharacterApp() {
   const [view, setView] = useState<View>("inventory");
   const [editor, setEditor] = useState<EditorState | null>(null);
   const [hydrated, setHydrated] = useState(false);
+  const [deletions, setDeletions] = useState<DeletedItem[]>([]);
+  const [undoMessage, setUndoMessage] = useState("");
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
@@ -504,10 +507,7 @@ export function CharacterApp() {
   function changeHp(amount: number) {
     updateCharacter((current) => ({
       ...current,
-      hpCurrent: Math.min(
-        current.hpMax,
-        Math.max(0, current.hpCurrent + amount),
-      ),
+      hpCurrent: Math.min(current.hpMax, current.hpCurrent + amount),
     }));
   }
 
@@ -604,10 +604,24 @@ export function CharacterApp() {
 
   function deleteEditorItem() {
     if (!editor?.item) return;
-    setState((current) =>
-      stripItemEverywhere(current, editor.item!.id).next,
-    );
+    const result = deleteWithUndo(state, editor.item.id);
+    if (result.deletion) {
+      setState(result.state);
+      setDeletions((previous) => [...previous.slice(-19), result.deletion!]);
+      setUndoMessage(`${result.deletion.item.name} deleted.`);
+    }
     setEditor(null);
+  }
+
+  function undoDeletion() {
+    const deletion = deletions[deletions.length - 1];
+    if (!deletion) return;
+    const result = restoreDeletedItem(state, deletion);
+    if (result.restored) {
+      setState(result.state);
+      setDeletions((previous) => previous.slice(0, -1));
+    }
+    setUndoMessage(result.message);
   }
 
   function resetPrototype() {
@@ -616,6 +630,8 @@ export function CharacterApp() {
     setState(fresh);
     setSelectedId(fresh.characters[0].id);
     setView("inventory");
+    setDeletions([]);
+    setUndoMessage("");
   }
 
   const armour = character.inventory.find((entry) => entry.location === "armor");
@@ -1016,6 +1032,11 @@ export function CharacterApp() {
         </main>
       </div>
 
+      {(deletions.length > 0 || undoMessage) && <div className={styles.undoNotice}>
+        <span role="status">{undoMessage}</span>
+        {deletions.length > 0 && <button type="button" onClick={undoDeletion} title={`Undo deletion of ${deletions[deletions.length - 1].item.name}. Available until you leave this page.`}>Undo{deletions.length > 1 ? ` (${deletions.length})` : ""}</button>}
+        {deletions.length === 0 && <button type="button" aria-label="Dismiss deletion notice" onClick={() => setUndoMessage("")}>×</button>}
+      </div>}
       {editor ? (
         <ItemEditor
           key={`${editor.item?.id ?? "new"}-${editor.initialDestination ?? ""}`}

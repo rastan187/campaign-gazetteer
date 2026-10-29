@@ -130,7 +130,7 @@ h1 {
   line-height: 1.42;
 }
 
-article {
+.gazetteer > article {
   position: relative;
   padding: clamp(56px, 8vw, 104px) 0 56px clamp(18px, 3vw, 38px);
   border-top: 1px solid var(--rule);
@@ -338,7 +338,7 @@ footer p {
     margin-top: 22px;
   }
 
-  article {
+  .gazetteer > article {
     padding-top: 48px;
   }
 
@@ -368,4 +368,48 @@ footer p {
   html {
     scroll-behavior: auto;
   }
+}
+
+/* Shared reference UI is scoped away from the established character ledger. */
+#main-content { scroll-margin-top: 90px; }
+.gazetteer .site-introduction { padding: clamp(42px, 6vw, 76px) 0 34px; }
+.gazetteer .site-introduction h1 { font-size: clamp(48px, 7vw, 94px); }
+.gazetteer .introduction { margin-top: 20px; }
+.launch-label { color: var(--muted); font: 700 11px/1.4 Arial, sans-serif; letter-spacing: .11em; text-transform: uppercase; }
+.campaign-launch { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; padding: 26px 0 38px; }
+.campaign-launch > div { padding: 24px; border: 1px solid var(--rule); background: rgb(255 255 255 / 17%); }
+.campaign-launch h2 { font-size: 32px; line-height: 1.1; letter-spacing: -.025em; }
+.campaign-launch p:not(.launch-label) { max-width: 460px; font-size: 17px; }
+.campaign-launch a { display: block; width: fit-content; padding: 8px 0; font: 600 14px/1.4 Arial, sans-serif; }
+.realm-index { padding: 0 0 40px; }
+.realm-index nav { display: grid; grid-template-columns: repeat(auto-fit, minmax(185px, 1fr)); gap: 14px; }
+.realm-index a { display: block; padding: 16px 12px; border-top: 2px solid var(--rule); text-decoration: none; }
+.realm-index a:hover { border-top-color: var(--realm-accent); background: rgb(255 255 255 / 22%); }
+.realm-index strong { display: block; font: 21px/1.2 Georgia, serif; }
+.realm-index span { display: block; padding-top: 9px; font: 12px/1.4 Arial, sans-serif; color: var(--muted); }
+.gazetteer > article { scroll-margin-top: 92px; }
+.gazetteer .moodboard-section { min-height: 0; padding-bottom: 10px; }
+.moodboard-actions { display: flex; gap: 14px 24px; align-items: center; flex-wrap: wrap; font: 13px/1.5 Arial, sans-serif; }
+.moodboard-actions button { min-height: 44px; padding: 10px 16px; border: 1px solid var(--rule); border-radius: 3px; background: transparent; font: inherit; color: inherit; cursor: pointer; }
+.moodboard-actions button:focus-visible { outline: 3px solid var(--realm-accent); outline-offset: 3px; }
+.draft-note { padding: 18px 0; color: var(--muted); font: 13px/1.5 Arial, sans-serif; }
+.campaign-footer { display: flex; flex-wrap: wrap; width: min(1320px, calc(100% - 48px)); margin: auto; font: 12px/1.5 Arial, sans-serif; letter-spacing: normal; text-transform: none; }
+.campaign-footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.campaign-footer a { padding: 8px 0; }
+.page-deck { max-width: 680px; margin: 24px 0 0; font-size: clamp(18px, 2vw, 23px); color: var(--muted); line-height: 1.5; }
+.primer-intro { width: min(1160px, calc(100% - 48px)); margin: auto; padding: 52px 0 46px; }
+.primer-intro h1 { font-size: clamp(52px, 8vw, 100px); }
+.heading-permalink { display: inline-block; min-width: 30px; padding: 5px; margin-left: 8px; vertical-align: middle; color: var(--muted); font: 13px/1 Arial, sans-serif; letter-spacing: normal; text-decoration: none; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.not-found { padding: 70px 0 120px; }
+.not-found h1 { font-size: clamp(48px, 8vw, 90px); }
+@media (max-width: 640px) { .campaign-launch { grid-template-columns: 1fr; gap: 16px; } .campaign-launch > div { padding: 20px; } .primer-intro { width: calc(100% - 32px); padding-top: 36px; } }
+@media print {
+  html { scroll-behavior: auto; }
+  body { background: white; color: black; font-size: 11pt; }
+  .campaign-footer, .heading-permalink, .moodboard-section, .campaign-launch, .realm-index { display: none !important; }
+  main { width: 100% !important; }
+  h2, h3, h4 { break-after: avoid; }
+  figure, blockquote, tr { break-inside: avoid; }
+  .gazetteer > article { border-left: 0; padding: 24px 0; }
 }

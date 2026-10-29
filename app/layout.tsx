@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { PinterestScript } from "./pinterest-script";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -27,7 +26,6 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
-        <PinterestScript />
       </body>
     </html>
   );
