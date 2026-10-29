@@ -11,5 +11,5 @@ export function SectionLink({ id, title }: { id: string; title: string }) {
       setCopied(true);
       window.setTimeout(() => setCopied(false), 2000);
     } catch { /* The native anchor still provides a usable, shareable URL. */ }
-  }}>{copied ? "Copied" : "#"}<span className="visually-hidden" role="status">{copied ? "Link copied" : ""}</span></a>;
+  }}>{copied ? "✓" : "#"}<span className="visually-hidden" role="status">{copied ? "Link copied" : ""}</span></a>;
 }

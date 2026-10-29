@@ -29,7 +29,7 @@ export default function HouseRulesPage() {
             h2: ({ children }) => <ReferenceHeading level={2}>{children}</ReferenceHeading>,
             h3: ({ children }) => <ReferenceHeading level={3}>{children}</ReferenceHeading>,
             h4: ({ children }) => <ReferenceHeading level={4}>{children}</ReferenceHeading>,
-            table: ({ children }) => <div className={styles.tableWrap} role="region" aria-label="Rule reference table" tabIndex={0}><table>{children}</table></div>,
+            table: ({ children }) => <div className={styles.tableWrap} role="region" aria-label="Rule reference table" tabIndex={0}><span className={styles.tableHint}>Scroll horizontally to see all columns.</span><table>{children}</table></div>,
           }}>{markdown}</ReactMarkdown>
           <nav className={shared.related} aria-label="Related pages"><strong>Related pages</strong><Link href="/map/">Region I Map</Link><a href={characterLedger} target="_blank" rel="noreferrer">Shared Character Ledger ↗</a><Link href="/campaign-primer/">Campaign Primer</Link></nav>
         </article>

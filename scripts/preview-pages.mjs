@@ -11,9 +11,10 @@ createServer(async (request, response) => {
     const pathname = decodeURIComponent(url.pathname);
     if (pathname === "/__preview/phone") {
       const page = url.searchParams.get("page") ?? "";
-      if (!["", "map/", "house-rules/", "campaign-primer/"].includes(page)) throw new Error("Not found");
+      const width = Number(url.searchParams.get("width") ?? 390);
+      if (!["", "map/", "house-rules/", "campaign-primer/", "characters/", "missing/"].includes(page) || ![320, 390, 768].includes(width)) throw new Error("Not found");
       response.writeHead(200, { "content-type": "text/html; charset=utf-8", "cache-control": "no-store" });
-      response.end(`<!doctype html><html lang="en"><title>Phone layout preview</title><body style="margin:0;background:#222;display:flex;justify-content:center"><iframe title="390 pixel phone preview" src="${prefix}/${page}" style="border:0;width:390px;height:844px;background:#f4eddb"></iframe></body></html>`);
+      response.end(`<!doctype html><html lang="en"><title>Responsive layout preview</title><body style="margin:0;background:#222;display:flex;justify-content:center"><iframe title="${width} pixel preview" src="${prefix}/${page}" style="border:0;width:${width}px;height:844px;background:#f4eddb"></iframe></body></html>`);
       return;
     }
     if (pathname === "/" || pathname === prefix) { response.writeHead(302, { location: `${prefix}/` }); response.end(); return; }

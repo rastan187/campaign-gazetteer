@@ -321,6 +321,7 @@ export function MapViewer({ map }: { map: PlayerMap }) {
             data-map-control
             onPointerDown={(event) => event.stopPropagation()}
           >
+            <div className={styles.controlGroup} role="group" aria-label="Map zoom">
             <button type="button" onClick={() => zoomBy(1.25)} aria-label="Zoom in">
               +
             </button>
@@ -330,10 +331,13 @@ export function MapViewer({ map }: { map: PlayerMap }) {
             <button type="button" onClick={fitMap} aria-label="Fit map to screen">
               Fit
             </button>
+            </div>
+            <div className={styles.controlGroup} role="group" aria-label="Map pan">
             <button type="button" onClick={() => panBy(100, 0)} aria-label="Pan map left">←</button>
             <button type="button" onClick={() => panBy(-100, 0)} aria-label="Pan map right">→</button>
             <button type="button" onClick={() => panBy(0, 100)} aria-label="Pan map up">↑</button>
             <button type="button" onClick={() => panBy(0, -100)} aria-label="Pan map down">↓</button>
+            </div>
           </div>
           {tileError && <p className={styles.assetError} role="status">Some map artwork could not load. You can still search locations and read field notes. Reload the page to retry.</p>}
 
@@ -400,7 +404,7 @@ export function MapViewer({ map }: { map: PlayerMap }) {
         <aside className={`${styles.details} ${!detailsOpen ? styles.detailsCollapsed : ""}`}>
           <button className={styles.detailsToggle} type="button" aria-expanded={detailsOpen} aria-controls="map-details" onClick={() => setDetailsOpen(!detailsOpen)}>{detailsOpen ? "Hide details & locations ↓" : "Show details & locations ↑"}</button>
           <div id="map-details" hidden={!detailsOpen}>
-          <div aria-live="polite" aria-atomic="true">
+          <div className={styles.fieldNotes} aria-live="polite" aria-atomic="true">
           {selectedCell ? (
             <>
               <p className={styles.detailCoordinate}>Hex {selectedCell.coordinate}</p>

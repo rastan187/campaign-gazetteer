@@ -13,6 +13,7 @@ Existing routes (`/`, `/campaign-primer/`, `/map/`, `/house-rules/`, and `/chara
 - Pinterest boards are visible by default, with an independent Hide/Show control for each board. Direct Pinterest links remain available when embeds fail.
 - Map fitting accommodates narrow viewports. Added name/coordinate lookup, a published-location list, hash links for hexes, browser-history handling, view memory, non-drag panning controls, keyboard exploration, pinch zoom, collapsible mobile details, and an artwork failure message.
 - A useful 404 page offers navigation and search.
+- The visual polish pass aligns page gutters and title spacing, adds separation between moodboard controls and embeds, improves reference heading/paragraph/table spacing, aligns image captions and related links, and groups map controls so they wrap together on narrow screens. The prototype's undo notice accommodates long item names; other ledger styling and record behavior are retained.
 
 ## Character prototype scope
 
@@ -44,7 +45,7 @@ node --test tests/public-pages.test.mjs tests/inventory-undo.test.mjs
 node scripts/preview-pages.mjs
 ```
 
-The preview serves only `out` at `http://localhost:4173/campaign-gazetteer/`. Its local-only `/__preview/phone` page embeds the actual exported site in a 390-pixel viewport; use `?page=map/`, `?page=house-rules/`, or `?page=campaign-primer/` to inspect another page. This harness is not part of the published export.
+The preview serves only `out` at `http://localhost:4173/campaign-gazetteer/`. Its local-only `/__preview/phone` page embeds the actual exported site in a 390-pixel viewport; use `?page=map/`, `?page=house-rules/`, `?page=campaign-primer/`, `?page=characters/`, or `?page=missing/` to inspect another page. Add `&width=320` or `&width=768` to check narrower phones or tablets. This harness is not part of the published export.
 
 Validation covers all old routes and heading IDs, reference navigation, private-record exclusion from reference pages, public map assets, selective deletion restoration, collision handling, and full-container handling. Browser checks cover search-to-rule navigation, phone menus and section jumps, phone map fit, location selection, negative HP, and delete/undo retaining negative HP. Two-finger pinch was implemented but was not verified on physical touch hardware.
 

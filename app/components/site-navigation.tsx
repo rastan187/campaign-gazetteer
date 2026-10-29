@@ -31,7 +31,7 @@ export function SiteNavigation({ current, dark, entries }: { current: string; da
       <div className={styles.inner}>
         <Link className={styles.brand} href="/">Campaign Gazetteer</Link>
         <nav className={styles.desktop} aria-label="Main navigation">{links()}</nav>
-        <button className={styles.searchButton} type="button" onClick={() => dialog.current?.showModal()}>Search<span aria-hidden="true"> ↗</span></button>
+        <button className={styles.searchButton} type="button" onClick={() => dialog.current?.showModal()}>Search</button>
         <details ref={menu} className={styles.menu} onKeyDown={(event) => {
           if (event.key === "Escape" && menu.current) { menu.current.open = false; menu.current.querySelector("summary")?.focus(); }
         }}>
