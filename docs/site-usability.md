@@ -10,7 +10,7 @@ Existing routes (`/`, `/campaign-primer/`, `/map/`, `/house-rules/`, and `/chara
 - Search uses only public Markdown, realm copy, and the already-sanitized player map. Neither the spreadsheet nor prototype records enter the index.
 - Reference contents include subsections, indicate the current topic, remain reachable on narrow screens, and close after selecting a topic. Heading links can be copied. Existing IDs are pinned in `content/section-ids.json`.
 - Primer images open at full size. Related links connect the primer, gazetteer, rules, and map. Print styles omit navigation and controls.
-- Pinterest boards load when requested; direct Pinterest links remain available when embeds fail.
+- Pinterest boards are visible by default, with an independent Hide/Show control for each board. Direct Pinterest links remain available when embeds fail.
 - Map fitting accommodates narrow viewports. Added name/coordinate lookup, a published-location list, hash links for hexes, browser-history handling, view memory, non-drag panning controls, keyboard exploration, pinch zoom, collapsible mobile details, and an artwork failure message.
 - A useful 404 page offers navigation and search.
 

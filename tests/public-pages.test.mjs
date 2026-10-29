@@ -35,10 +35,11 @@ test("every existing rule and primer heading retains its exact public anchor", a
   }
 });
 
-test("realm anchors and Pinterest fallback links survive; embeds load on demand", async () => {
+test("realm anchors and Pinterest fallback links survive; moodboards start expanded", async () => {
   const html = await read("out/index.html");
   for (const id of ["xiiom", "kumoi", "namarath", "endulia", "serevan-empire", "top"]) assert.match(html, new RegExp(`id="${id}"`));
-  assert.equal((html.match(/Show moodboard/g) ?? []).length, 5);
+  assert.equal((html.match(/Hide moodboard/g) ?? []).length, 5);
+  assert.equal((html.match(/data-pin-do="embedBoard"/g) ?? []).length, 5);
   assert.equal((html.match(/>Open on Pinterest/g) ?? []).length, 5);
   assert.doesNotMatch(html, /<script[^>]+src="https:\/\/assets\.pinterest/);
 });
