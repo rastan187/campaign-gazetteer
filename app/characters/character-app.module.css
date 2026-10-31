@@ -106,13 +106,11 @@
   border-right: 1px solid rgb(238 228 203 / 12%);
 }
 
-.eyebrow {
+.characterSummary {
   margin: 0 0 14px;
   color: var(--moss-bright);
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .characterList {
@@ -853,7 +851,6 @@
     border-bottom: 1px solid rgb(238 228 203 / 12%);
   }
 
-  .roster .eyebrow,
   .rosterFoot {
     display: none;
   }
@@ -976,4 +973,11 @@
     transition: none;
   }
 }
+
+.undoNotice { position: fixed; z-index: 45; bottom: 24px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 16px; width: max-content; max-width: calc(100% - 32px); padding: 14px 18px; border: 1px solid #8d9b69; border-radius: 8px; background: #24291e; box-shadow: 0 6px 25px rgb(0 0 0 / 35%); color: #eee4cb; font: 14px/1.4 Arial, sans-serif; }
+.undoNotice button { min-height: 44px; padding: 8px 12px; border: 1px solid #8d9b69; border-radius: 4px; background: transparent; color: inherit; font: inherit; cursor: pointer; }
+.undoNotice button:focus-visible { outline: 3px solid #eee4cb; outline-offset: 3px; }
+.undoNotice span { min-width: 0; overflow-wrap: anywhere; }
+.undoNotice button { flex-shrink: 0; }
+@media (max-width: 760px) { .undoNotice { bottom: 86px; gap: 10px; padding: 10px; } }
 

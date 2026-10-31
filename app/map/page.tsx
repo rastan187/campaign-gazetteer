@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import playerMap from "../../content/region1-player-map.json";
 import { MapViewer } from "./map-viewer";
+import { SiteHeader } from "../components/site-header";
 
 export const metadata: Metadata = {
   title: "Region I Map · Campaign Gazetteer",
@@ -8,5 +9,5 @@ export const metadata: Metadata = {
 };
 
 export default function MapPage() {
-  return <MapViewer map={playerMap} />;
+  return <><SiteHeader current="/map/" dark /><MapViewer map={playerMap} /></>;
 }

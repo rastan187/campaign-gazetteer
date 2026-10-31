@@ -36,7 +36,7 @@ test("server-renders the campaign atlas", async () => {
   assert.match(html, /Endulia/);
   assert.match(html, /The Serevan Remnant/);
   assert.match(html, /Campaign Primer/);
-  assert.equal(html.match(/data-pin-do="embedBoard"/g)?.length, 5);
+  assert.equal(html.match(/Hide moodboard/g)?.length, 5);
   assert.match(html, /https:\/\/www\.pinterest\.com\/miguelalopez\/xiiom\//);
   assert.match(html, /https:\/\/www\.pinterest\.com\/miguelalopez\/serevan-remnant\//);
   assert.doesNotMatch(

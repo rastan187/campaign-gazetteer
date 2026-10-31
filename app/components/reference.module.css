@@ -1,0 +1,20 @@
+.contents { position: sticky; top: calc(var(--site-header-height) + 24px); align-self: start; max-height: calc(100svh - var(--site-header-height) - 48px); overflow-y: auto; border-top: 3px solid var(--ink); padding: 18px 8px 16px 0; scrollbar-gutter: stable; }
+.contents p { margin: 0 0 14px; font: 600 14px/1.4 Arial, sans-serif; color: var(--muted); }
+.contents nav, .mobileContents nav { display: grid; gap: 2px; }
+.contents a, .mobileContents a { display: block; padding: 9px 6px; color: var(--ink); text-decoration: none; font: 600 12px/1.4 Arial, sans-serif; border-left: 2px solid transparent; }
+.contents a.subsection, .mobileContents a.subsection { padding-left: 17px; font-size: 12px; font-weight: 400; color: var(--muted); }
+.contents a[aria-current], .mobileContents a[aria-current] { border-left-color: #983a2b; background: rgb(152 58 43 / 7%); color: var(--ink); }
+.contents a:hover, .mobileContents a:hover { text-decoration: underline; }
+.mobileContents { display: none; }
+.related { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; padding: 28px 0 0; margin: 48px 0 0; border-top: 1px solid var(--rule); font: 14px/1.5 Arial, sans-serif; }
+.related strong { flex-basis: 100%; margin-bottom: 4px; font: 24px/1.2 Georgia, serif; }
+.related a { display: inline-flex; align-items: center; min-height: 44px; padding-block: 10px; }
+@media (max-width: 840px) {
+  .contents { display: none; }
+  .mobileContents { display: block; position: sticky; top: var(--site-header-height); z-index: 40; margin: 0; background: var(--paper); border: 1px solid var(--rule); grid-row: 1; }
+  .mobileContents summary { padding: 12px 15px; cursor: pointer; font: 700 12px/1.3 Arial, sans-serif; }
+  .mobileContents summary span { display: block; padding-top: 4px; font-weight: 400; color: var(--muted); }
+  .mobileContents nav { padding: 8px 12px; max-height: 55svh; overflow: auto; border-top: 1px solid var(--rule); }
+  .mobileContents a { min-height: 44px; }
+}
+@media print { .contents, .mobileContents, .related { display: none; } }

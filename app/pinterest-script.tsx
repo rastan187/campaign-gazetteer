@@ -7,6 +7,8 @@ const PINTEREST_SCRIPT_ID = "pinterest-board-script";
 export function PinterestScript() {
   useEffect(() => {
     if (document.getElementById(PINTEREST_SCRIPT_ID)) {
+      const pinterest = window as typeof window & { PinUtils?: { build: () => void } };
+      pinterest.PinUtils?.build();
       return;
     }
 

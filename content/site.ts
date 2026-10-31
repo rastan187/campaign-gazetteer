@@ -10,7 +10,7 @@
 export const site = {
   title: "Campaign Gazetteer",
   introduction:
-    "Brief info + visual vibes on the major regions in our campaign world.",
+    "The major regions of the campaign world.",
 };
 
 export const nations = [
